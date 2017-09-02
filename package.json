@@ -1,0 +1,25 @@
+{
+  "name": "spfx-uifabric-themes",
+  "version": "0.0.1",
+  "description": "Include theme slots in your SharePoint Framework Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Office",
+    "UI",
+    "Fabric",
+    "Office UI Fabric",
+    "SPFX",
+    "SharePoint",
+    "SharePoint Framework",
+    "Office",
+    "Themes",
+    "Office 365",
+    "Microsoft 365",
+    "Branding"
+  ],
+  "author": "Stefan Bauer <@stfbauer>",
+  "license": "MIT"
+}
