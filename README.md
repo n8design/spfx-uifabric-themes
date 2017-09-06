@@ -1,4 +1,4 @@
-# Office UI Fabrich and Office 365 Theme support for SharePoint Framework Projects
+# Office UI Fabric and Office 365 Theme support for SharePoint Framework Projects
 This NPM package allows you to use theme token from Office UI Frabric in SharPoint Framework Projects.
 
 # Installation
