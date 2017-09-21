@@ -1,0 +1,27 @@
+// available Office UI States
+$officeUIStates: alert, error, info, servere, success;
+
+// configuration
+$officeUIStateValues: ( 
+  alert: ($ms-alertText, $ms-alertBackground), 
+  error: ($ms-errorText, $ms-errorBackground), 
+  info: ($ms-infoText, $ms-infoBackground), 
+  servere: ($ms-severeWarningText, $ms-severeWarningBackground), 
+  success: ($ms-successText, $ms-successBackground)
+);
+
+// Get state objects from alert, error, info, servere, success
+@mixin stateStyle($state) {
+
+    $stateindex: index($officeUIStates, $state);
+
+    @if($stateindex !=null) {
+        $backcolor: nth( nth( nth($officeUIStateValues, $stateindex), 2), 2);
+        $forecolor: nth( nth( nth($officeUIStateValues, $stateindex), 2), 1);
+    } @else {
+        @warn 'Error: wrong state';
+    }
+    
+    background-color: $backcolor;
+    color: $forecolor;
+}
