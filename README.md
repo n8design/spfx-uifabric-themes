@@ -14,16 +14,29 @@ After this installation this package should be listed as a dev dependency in you
 Go to any of your `.module.scss` files in your project and include the following SASS @import statement 
 
 ```scss
+// For all tools and utlities
+@import './node_modules/spfx-uifabric-themes/office.theme';
+```
+If only the color variables are needed in the SPFX Project only the variables can be included too.
+
+```scss
+// For color variables only
 @import './node_modules/spfx-uifabric-themes/office.theme.vars';
 ```
 
 After that you can use theme slots like `$ms-themePrimary`.
 
 ```scss
-@import './node_modules/spfx-uifabric-themes/office.theme.vars';
+@import './node_modules/spfx-uifabric-themes/office.theme';
 
 .container {
   background-color: $ms-themePrimary;
+}
+// For Error Messages use you can pass: alert, error, info, servere, success
+.custErrorMsg{
+  padding: 0 1em;
+  line-height: 2em;
+  @include stateStyle('error');
 }
 
 ```
@@ -35,7 +48,34 @@ This will automatically add the theme slot for the background color.
 .container_742604fa {
   background-color: "[theme:themePrimary, default:#0078d7]"
 }
+
+.custErrorMsg_742604fa {
+  padding: 0 1em;
+  line-height: 2em;
+  background-color: "[theme:errorBackground, default: #fde7e9]";
+  color: "[theme:errorText, default: #333333]"
+}
 ```
+
+# Additional functions
+
+## stateStyle($state) 
+This functions returns the matching Office UI Fabric colors for the following states
+* alert
+* error
+* info
+* servere
+* success
+To use this function simplay pass in the string values.
+```scss
+// For Error Messages use you can pass: alert, error, info, servere, success
+.custErrorMsg{
+  padding: 0 1em;
+  line-height: 2em;
+  @include stateStyle('error');
+}
+```
+
 
 # License
 MIT License

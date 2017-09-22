@@ -14,6 +14,9 @@ $officeUIStateValues: (
 @mixin stateStyle($state) {
 
     $stateindex: index($officeUIStates, $state);
+    $backcolor: null;
+    $forecolor: null;
+
 
     @if($stateindex !=null) {
         $backcolor: nth( nth( nth($officeUIStateValues, $stateindex), 2), 2);
