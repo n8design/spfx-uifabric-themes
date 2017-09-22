@@ -78,7 +78,8 @@ To use this function simplay pass in the string values.
   @include stateStyle('error');
 }
 ```
-
+This function can create the following status fields for example:
+![stateStyle Sample Results][office.theme.functions.statestyle]
 
 # License
 MIT License
@@ -102,3 +103,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+[office.theme.functions.statestyle]: ./assets/office.theme.functions.statestyle.png "Possible stateStyle results"
