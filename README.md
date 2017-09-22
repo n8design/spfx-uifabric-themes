@@ -61,12 +61,15 @@ This will automatically add the theme slot for the background color.
 
 ## stateStyle($state) 
 This functions returns the matching Office UI Fabric colors for the following states
+
 * alert
 * error
 * info
 * servere
 * success
+
 To use this function simplay pass in the string values.
+
 ```scss
 // For Error Messages use you can pass: alert, error, info, servere, success
 .custErrorMsg{
