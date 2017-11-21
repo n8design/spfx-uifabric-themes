@@ -1,0 +1,11 @@
+**/.DS_Store
+true-*.gem
+pkg/*
+.bundle
+Gemfile.lock
+.sass-cache/
+test/.sass-cache/
+*.css.map
+node_modules/
+coverage/
+.pages/

@@ -58,3 +58,42 @@ $officeUIStateText: (
     color: $forecolor;
 
 }
+
+/***
+100	Thin (Hairline)
+200	Extra Light (Ultra Light)
+300	Light
+400	Normal
+500	Medium
+600	Semi Bold (Demi Bold)
+700	Bold
+800	Extra Bold (Ultra Bold)
+900	Black (Heavy)
+**/
+@function thin(){
+    @return 100;
+};
+@function ultralight(){
+    @return 200;
+};
+@function light(){
+    @return 300;
+};
+@function normal(){
+    @return 400;
+};
+@function medium(){
+    @return 500;
+};
+@function semibold(){
+    @return 600;
+};
+@function bold(){
+    @return 700;
+};
+@function extrabold(){
+    @return 800;
+};
+@function heavy(){
+    @return 900;
+};

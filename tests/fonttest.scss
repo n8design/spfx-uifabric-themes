@@ -1,0 +1,19 @@
+@import "true";
+@import "../node_modules/sass-true/sass/true";
+@import "../_office.theme.fontsize";
+
+@include report;
+
+@include describe('Font Size Output Test:') {
+    @include it('Outputs a font size and line height based on keyword') {
+        @include assert {
+            @include output {
+                @include getFontSize('large');
+            }
+            @include expect {
+                font-size: 16px;
+                color: lime;
+            }
+        }
+    }
+}

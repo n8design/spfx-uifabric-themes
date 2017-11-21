@@ -1,0 +1,49 @@
+$fontSizes: (
+    ('su', 
+        42px, 
+        thin()
+    ),
+    ('xxl', 
+        28px, 
+        thin()
+    ),
+    ('xl', 
+        21px, 
+        thin()
+    ),
+    ('l', 
+        17px, 
+        light()
+    ),
+    ('m-plus', 
+        15px, 
+        normal()
+    ),
+    ('m', 
+        14px, 
+        normal()
+    ),
+    ('s-plus', 
+        13px, 
+        normal()
+    ),
+    ('s', 
+        12px, 
+        normal()
+    ),
+    ('xs', 
+        11px, 
+        normal()
+    ),
+    ('mi', 
+        10px, 
+        normal()
+    )
+);
+
+$fontWeight: (
+    ('light', thin()),
+    ('semilight', light()),
+    ('regular', regular()),
+    ('bold', bold()),
+);

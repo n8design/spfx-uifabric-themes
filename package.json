@@ -4,7 +4,7 @@
   "description": "Include theme slots in your SharePoint Framework Project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "keywords": [
     "Office",
@@ -21,5 +21,17 @@
     "Branding"
   ],
   "author": "Stefan Bauer <@stfbauer>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gulp-plumber": "^1.1.0",
+    "node-sass": "^4.7.2",
+    "sass-test.sh": "^1.4.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^4.3.1",
+    "mocha": "^4.0.1",
+    "sass-true": "^3.0.2",
+    "sassytester": "^1.1.0"
+  }
 }
