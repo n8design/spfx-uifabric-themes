@@ -3,30 +3,43 @@
 @import "../_office.theme";
 
 $fontList: su, xxl, xl, l, m-plus, m, s-plus, s;
-$fontExpect: 3.23077em, 
-2.15385em, 
-1.61538em, 
-1.30769em, 
-1.15385em,
-1.07692em,
-1em,
-0.92308em;
 
-@include describe('Font Size Output Test:') {
+// Default Office UI Fabric Documentation
+$fontWeight: light, semilight, regular, bold;
+// Expected Font sizes
+$fontExpect: 3.23077em, 2.15385em, 1.61538em, 1.30769em, 1.15385em, 1.07692em, 1em, 0.92308em;
+$fontWeightExpect: 100, 300, 400, 700;
+
+@include describe("Testing font sizes:") {
     $i: 1;
 
-    @each $font in $fontList{
-        @include it('Convert Font size to em: ' $font){
+    @each $font in $fontList {
+        @include it("Convert Font size to em: " $font) {
             @include assert {
                 @include output {
                     @include getFontSize($font);
-
                 }
                 @include expect {
                     font-size: nth($fontExpect, $i);
                 }
-            }            
+            }
         }
-        $i: $i + 1;
+        $i: $i+1;
+    }
+}
+
+@include describe("Testing font weight:") {
+    $i: 1; // increment over loop to find correct index;
+    @each $font in $fontWeight {
+        @include it("Expected Font Weight: " $font) {
+            @include assert {
+                @include output {
+                    @include getFontWeight($font);
+                }
+                @include expect {
+                    font-weight: nth($fontWeightExpect, $i);
+                }
+            }
+        }
     }
 }
