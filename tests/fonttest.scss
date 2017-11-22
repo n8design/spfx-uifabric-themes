@@ -1,19 +1,32 @@
 @import "true";
 @import "../node_modules/sass-true/sass/true";
-@import "../_office.theme.fontsize";
+@import "../_office.theme";
 
-@include report;
+$fontList: su, xxl, xl, l, m-plus, m, s-plus, s;
+$fontExpect: 3.23077em, 
+2.15385em, 
+1.61538em, 
+1.30769em, 
+1.15385em,
+1.07692em,
+1em,
+0.92308em;
 
 @include describe('Font Size Output Test:') {
-    @include it('Outputs a font size and line height based on keyword') {
-        @include assert {
-            @include output {
-                @include getFontSize('large');
-            }
-            @include expect {
-                font-size: 16px;
-                color: lime;
-            }
+    $i: 1;
+
+    @each $font in $fontList{
+        @include it('Convert Font size to em: ' $font){
+            @include assert {
+                @include output {
+                    @include getFontSize($font);
+
+                }
+                @include expect {
+                    font-size: nth($fontExpect, $i);
+                }
+            }            
         }
+        $i: $i + 1;
     }
 }

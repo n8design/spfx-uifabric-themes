@@ -4,7 +4,7 @@ const gulp = require('gulp'),
 
 // Run SASS Unit test
 gulp.task('test', () => {
-    return gulp.src('test.js', {
+    gulp.src('test.js', {
             read: false
         })
         .pipe(plumber())
