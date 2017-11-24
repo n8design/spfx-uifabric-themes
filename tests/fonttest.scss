@@ -7,8 +7,8 @@ $fontList: su, xxl, xl, l, m-plus, m, s-plus, s;
 // Default Office UI Fabric Documentation
 $fontWeight: light, semilight, regular, bold;
 // Expected Font sizes
-$fontExpect: 3.23077em, 2.15385em, 1.61538em, 1.30769em, 1.15385em, 1.07692em, 1em, 0.92308em;
-$fontWeightExpect: 100, 300, 400, 700;
+$fontExpected: 3.23077em, 2.15385em, 1.61538em, 1.30769em, 1.15385em, 1.07692em, 1em, 0.92308em;
+$fontWeightExpected: thin(), semilight(), normal(), bold();
 
 @include describe("Testing font sizes:") {
     $i: 1;
@@ -20,7 +20,7 @@ $fontWeightExpect: 100, 300, 400, 700;
                     @include getFontSize($font);
                 }
                 @include expect {
-                    font-size: nth($fontExpect, $i);
+                    font-size: nth($fontExpected, $i);
                 }
             }
         }
@@ -30,16 +30,17 @@ $fontWeightExpect: 100, 300, 400, 700;
 
 @include describe("Testing font weight:") {
     $i: 1; // increment over loop to find correct index;
-    @each $font in $fontWeight {
-        @include it("Expected Font Weight: " $font) {
+    @each $fontWeight in $fontWeights {
+        @include it("Expected Font Weight: " nth($fontWeightExpected, $i)) {
             @include assert {
                 @include output {
-                    @include getFontWeight($font);
+                    @include getFontWeight($fontWeight);
                 }
                 @include expect {
-                    font-weight: nth($fontWeightExpect, $i);
+                    font-weight: nth($fontWeightExpected, $i);
                 }
             }
         }
+        $i: $i+1;
     }
 }

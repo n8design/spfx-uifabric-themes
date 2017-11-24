@@ -4,6 +4,7 @@ const gulp = require('gulp'),
 
 // Run SASS Unit test
 gulp.task('test', () => {
+
     gulp.src('test.js', {
             read: false
         })
@@ -11,7 +12,9 @@ gulp.task('test', () => {
         // `gulp-mocha` needs filepaths so you can't have any plugins before it
         .pipe(mocha({
             reporter: 'nyan'
-        }))
+        }).on('err', () => {
+            console.log('test failed...');
+        }));
 })
 
 // Default task
