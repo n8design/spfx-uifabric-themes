@@ -2,25 +2,72 @@
 @import "../node_modules/sass-true/sass/true";
 @import "../_office.theme";
 
-$fontList: su, xxl, xl, l, m-plus, m, s-plus, s;
+$fontList: su, xxl, xl, l, m-plus, m, s-plus, s, xs, mi;
 
 // Default Office UI Fabric Documentation
-$fontWeight: light, semilight, regular, bold;
-// Expected Font sizes
-$fontExpected: 3.23077em, 2.15385em, 1.61538em, 1.30769em, 1.15385em, 1.07692em, 1em, 0.92308em;
-$fontWeightExpected: thin(), semilight(), normal(), bold();
+// $fontWeights: light, semilight, regular, bold;
 
-@include describe("Testing font sizes:") {
+// Expected Font sizes
+$fontSizeExpected: 3.23077em, 2.15385em, 1.61538em, 1.30769em, 1.15385em, 1.07692em, 1em, 0.92308em, 0.84615em, 0.76923em;
+$fontWeightExpected: "thin()", "light()", "regular()", "bold()";
+
+$fontsExpected: (
+    ('su', 
+        nth($fontSizeExpected, 1), 
+        "thin()"
+    ),
+    ('xxl', 
+        nth($fontSizeExpected, 2), 
+        "thin()"
+    ),
+    ('xl', 
+        nth($fontSizeExpected, 3), 
+        "thin()"
+    ),
+    ('l', 
+        nth($fontSizeExpected, 4), 
+        "light()"
+    ),
+    ('m-plus', 
+        nth($fontSizeExpected, 5), 
+        "normal()"
+    ),
+    ('m', 
+        nth($fontSizeExpected, 6), 
+        "normal()"
+    ),
+    ('s-plus', 
+        nth($fontSizeExpected, 7), 
+        "normal()"
+    ),
+    ('s', 
+        nth($fontSizeExpected, 8), 
+        "normal()"
+    ),
+    ('xs', 
+        nth($fontSizeExpected, 9), 
+        "normal()"
+    ),
+    ('mi', 
+        nth($fontSizeExpected, 10), 
+        "normal()"
+    )
+);
+
+
+// Testing -- uiFontSize
+@include describe("Testing font definition:") {
     $i: 1;
 
     @each $font in $fontList {
         @include it("Convert Font size to em: " $font) {
             @include assert {
                 @include output {
-                    @include getFontSize($font);
+                    @include uiFont($font);
                 }
                 @include expect {
-                    font-size: nth($fontExpected, $i);
+                    font-size: nth(nth($fontsExpected, $i), 2);
+                    font-weight: #{nth(nth($fontsExpected, $i), 3)};
                 }
             }
         }
@@ -28,16 +75,36 @@ $fontWeightExpected: thin(), semilight(), normal(), bold();
     }
 }
 
+
+// Testing -- uiFontWeight
+@include describe("Testing font size:") {
+    $i: 1; // increment over loop to find correct index;
+    @each $fontSize in $fontList {
+        @include it("Expected Font Weight: " nth($fontList, $i)) {
+            @include assert {
+                @include output {
+                    @include uiFontSize($fontSize);
+                }
+                @include expect {
+                    font-size: #{nth($fontSizeExpected, $i)};
+                }
+            }
+        }
+        $i: $i+1;
+    }
+}
+
+// Testing -- uiFont
 @include describe("Testing font weight:") {
     $i: 1; // increment over loop to find correct index;
     @each $fontWeight in $fontWeights {
         @include it("Expected Font Weight: " nth($fontWeightExpected, $i)) {
             @include assert {
                 @include output {
-                    @include getFontWeight($fontWeight);
+                    @include uiFontWeight($fontWeight);
                 }
                 @include expect {
-                    font-weight: nth($fontWeightExpected, $i);
+                    font-weight: #{nth($fontWeightExpected, $i)};
                 }
             }
         }
