@@ -1,9 +1,8 @@
-[![Build Status](https://travis-ci.org/StfBauer/spfx-uifabric-themes.svg?branch=master)](https://travis-ci.org/StfBauer/spfx-uifabric-themes.svg)
+[![Build Status](https://travis-ci.org/StfBauer/spfx-uifabric-themes.svg?branch=master)](https://travis-ci.org/StfBauer/spfx-uifabric-themes.svg) [![Greenkeeper badge](https://badges.greenkeeper.io/StfBauer/spfx-uifabric-themes.svg)](https://greenkeeper.io/)
 
 
 # Office UI Fabric and Office 365 Theme support for SharePoint Framework Projects
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/StfBauer/spfx-uifabric-themes.svg)](https://greenkeeper.io/)
 This NPM package allows you to use theme token from Office UI Frabric in SharPoint Framework Projects.
 
 # Installation
