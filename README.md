@@ -1,4 +1,4 @@
-*Build Status* [![Build Status](https://travis-ci.org/StfBauer/spfx-uifabric-themes.svg?branch=master)](https://travis-ci.org/StfBauer/spfx-uifabric-themes.svg)
+[![Build Status](https://travis-ci.org/StfBauer/spfx-uifabric-themes.svg?branch=master)](https://travis-ci.org/StfBauer/spfx-uifabric-themes.svg)
 
 
 # Office UI Fabric and Office 365 Theme support for SharePoint Framework Projects
