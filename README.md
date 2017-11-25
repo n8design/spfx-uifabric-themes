@@ -1,4 +1,4 @@
-*Build Status* [![Greenkeeper badge](https://badges.greenkeeper.io/spfx-uifabric-themes.svg)](https://greenkeeper.io/) [![Build Status](https://travis-ci.org/StfBauer/spfx-uifabric-themes.svg?branch=master)](https://travis-ci.org/oddbird/true)
+*Build Status* [![Build Status](https://travis-ci.org/StfBauer/spfx-uifabric-themes.svg?branch=master)](https://travis-ci.org/StfBauer/spfx-uifabric-themes.svg)
 
 
 # Office UI Fabric and Office 365 Theme support for SharePoint Framework Projects
