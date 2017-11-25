@@ -1,6 +1,6 @@
 {
   "name": "spfx-uifabric-themes",
-  "version": "0.1.4-1",
+  "version": "0.1.4-2",
   "description": "Include theme slots in your SharePoint Framework Project",
   "main": "index.js",
   "scripts": {
