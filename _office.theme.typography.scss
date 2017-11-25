@@ -15,7 +15,7 @@
 
         @if $fdTitle==$fabric-font {
             font-size: $fdSizeEm;
-            font-weight: $fdWeight;
+            font-weight: call($fdWeight);
         }
     }
 }
@@ -30,7 +30,7 @@
         $fdValue: $fdWeight; // @warn $fdTitle $fabric-font    $fdTitle == nth($fabric-font, 1);
 
         @if $fdTitle==nth($fabric-font, 1) {
-            font-weight: $fdValue();
+            font-weight: call($fdValue);
         }
 
     }

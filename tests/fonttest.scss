@@ -9,48 +9,48 @@ $fontList: su, xxl, xl, l, m-plus, m, s-plus, s, xs, mi;
 
 // Expected Font sizes
 $fontSizeExpected: 3.23077em, 2.15385em, 1.61538em, 1.30769em, 1.15385em, 1.07692em, 1em, 0.92308em, 0.84615em, 0.76923em;
-$fontWeightExpected: "thin()", "light()", "regular()", "bold()";
+$fontWeightExpected: 100, 300, 400, 700;
 
 $fontsExpected: (
     ('su', 
         nth($fontSizeExpected, 1), 
-        "thin()"
+        100
     ),
     ('xxl', 
         nth($fontSizeExpected, 2), 
-        "thin()"
+        100
     ),
     ('xl', 
         nth($fontSizeExpected, 3), 
-        "thin()"
+        100
     ),
     ('l', 
         nth($fontSizeExpected, 4), 
-        "light()"
+        300
     ),
     ('m-plus', 
         nth($fontSizeExpected, 5), 
-        "normal()"
+        400
     ),
     ('m', 
         nth($fontSizeExpected, 6), 
-        "normal()"
+        400
     ),
     ('s-plus', 
         nth($fontSizeExpected, 7), 
-        "normal()"
+        400
     ),
     ('s', 
         nth($fontSizeExpected, 8), 
-        "normal()"
+        400
     ),
     ('xs', 
         nth($fontSizeExpected, 9), 
-        "normal()"
+        400
     ),
     ('mi', 
         nth($fontSizeExpected, 10), 
-        "normal()"
+        400
     )
 );
 

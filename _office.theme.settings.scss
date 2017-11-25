@@ -3,49 +3,49 @@ $fontSizeCore: 13px;
 $fontSizes: (
     ('su', 
         42px, 
-        thin()
+        thin
     ),
     ('xxl', 
         28px, 
-        thin()
+        thin
     ),
     ('xl', 
         21px, 
-        thin()
+        thin
     ),
     ('l', 
         17px, 
-        light()
+        light
     ),
     ('m-plus', 
         15px, 
-        normal()
+        normal
     ),
     ('m', 
         14px, 
-        normal()
+        normal
     ),
     ('s-plus', 
         13px, 
-        normal()
+        normal
     ),
     ('s', 
         12px, 
-        normal()
+        normal
     ),
     ('xs', 
         11px, 
-        normal()
+        normal
     ),
     ('mi', 
         10px, 
-        normal()
+        normal
     )
 );
 
 $fontWeights: (
-    ('light', thin()),
-    ('semilight', light()),
-    ('regular', regular()),
-    ('bold', bold()),
+    ('light', thin),
+    ('semilight', light),
+    ('regular', normal),
+    ('bold', bold),
 );
