@@ -109,6 +109,53 @@ This `@mixin` will return a combination font weight and font size defined by Off
 | **xs**      | 0.78571em | 400 | .ms-font-xs | 11px |
 | **mi**      | 0.71429em | 700 | .ms-font-mi | 10px |
 
+To use this `@mixin`:
+
+```scss
+	
+.myClass{
+    @include uiFont(su);
+}
+
+.mySmallText{
+	@include uiFont(mi);
+}
+	
+```
+
+**Result in CSS**
+
+```sass
+
+.myBoldText{
+    font-size: 3em;
+    font-weight: 100;
+}
+
+.myCustomTextStyle{
+		font-size: 0.71429em;
+    font-weight: 100;
+}
+
+```
+
+**Result in SPFx Projects**
+
+```sass
+
+.myBoldText_714f5755{
+    font-size: 3em;
+    font-weight: 100;
+}
+
+.myCustomTextStyle_714f5755{
+		font-size: 0.71429em;
+    font-weight: 100;
+}
+
+```
+
+
 
 
 

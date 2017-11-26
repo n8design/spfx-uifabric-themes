@@ -1,5 +1,13 @@
+@mixin setRem($rem){
+    $useRem: $rem !global;
+}
+
 @function pxToEm($size) {
     @return ($size / $fontSizeCore) * 1em;
+}
+
+@function pxToRem($size) {
+    @return ($size / $fontSizeRoot) * 1rem;
 }
 
 // Get font size and according font weight
@@ -10,7 +18,7 @@
         // check Office UI Frabric name
         $fdTitle: nth($fontDef, 1); // base office ui fabric in PX value
         $fdSizePx: nth($fontDef, 2); // base office ui fabric in EM value
-        $fdSizeEm: pxToEm($fdSizePx); // get font weight
+        $fdSizeEm: if($useRem, pxToRem($fdSizePx), pxToEm($fdSizePx)); // get font weight
         $fdWeight: nth($fontDef, 3);
 
         @if $fdTitle==$fabric-font {
@@ -44,7 +52,7 @@
             // check Office UI Frabric name
             $fdTitle: nth($fontDef, 1); // base office ui fabric in PX value
             $fdSizePx: nth($fontDef, 2); // base office ui fabric in EM value
-            $fdSizeEm: pxToEm($fdSizePx); // get font weight
+            $fdSizeEm: if($useRem, pxToRem($fdSizePx), pxToEm($fdSizePx)); // get font weight
             $fdWeight: nth($fontDef, 3);
     
             @if $fdTitle==$fabric-font {

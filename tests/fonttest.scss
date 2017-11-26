@@ -1,6 +1,6 @@
 @import "true";
 @import "../node_modules/sass-true/sass/true";
-@import "../_office.theme";
+@import "../office.theme";
 
 $fontList: su, xxl, xl, l, m-plus, m, s-plus, s, xs, mi;
 
@@ -8,52 +8,95 @@ $fontList: su, xxl, xl, l, m-plus, m, s-plus, s, xs, mi;
 // $fontWeights: light, semilight, regular, bold;
 
 // Expected Font sizes
-$fontSizeExpected: 3em, 2em, 1.5em, 1.21429em, 1.07143em, 1em, 0.92857em, 0.85714em, 0.78571em, 0.71429em;
+$fontSizeExpectedEm: 3em, 2em, 1.5em, 1.21429em, 1.07143em, 1em, 0.92857em, 0.85714em, 0.78571em, 0.71429em;
+$fontSizeExpectedRem: 2.625rem, 1.75rem, 1.3125rem, 1.0625rem, 0.9375rem, 0.875rem, 0.8125rem, 0.75rem, 0.6875rem, 0.625rem;
 $fontWeightExpected: 100, 300, 400, 700;
 
-$fontsExpected: (
+$fontsExpectedEm: (
     ('su', 
-        nth($fontSizeExpected, 1), 
+        nth($fontSizeExpectedEm, 1), 
         100
     ),
     ('xxl', 
-        nth($fontSizeExpected, 2), 
+        nth($fontSizeExpectedEm, 2), 
         100
     ),
     ('xl', 
-        nth($fontSizeExpected, 3), 
+        nth($fontSizeExpectedEm, 3), 
         100
     ),
     ('l', 
-        nth($fontSizeExpected, 4), 
+        nth($fontSizeExpectedEm, 4), 
         300
     ),
     ('m-plus', 
-        nth($fontSizeExpected, 5), 
+        nth($fontSizeExpectedEm, 5), 
         400
     ),
     ('m', 
-        nth($fontSizeExpected, 6), 
+        nth($fontSizeExpectedEm, 6), 
         400
     ),
     ('s-plus', 
-        nth($fontSizeExpected, 7), 
+        nth($fontSizeExpectedEm, 7), 
         400
     ),
     ('s', 
-        nth($fontSizeExpected, 8), 
+        nth($fontSizeExpectedEm, 8), 
         400
     ),
     ('xs', 
-        nth($fontSizeExpected, 9), 
+        nth($fontSizeExpectedEm, 9), 
         400
     ),
     ('mi', 
-        nth($fontSizeExpected, 10), 
-        400
+        nth($fontSizeExpectedEm, 10), 
+        700
     )
 );
 
+$fontsExpectedRem: (
+    ('su', 
+        nth($fontSizeExpectedRem, 1), 
+        100
+    ),
+    ('xxl', 
+        nth($fontSizeExpectedRem, 2), 
+        100
+    ),
+    ('xl', 
+        nth($fontSizeExpectedRem, 3), 
+        100
+    ),
+    ('l', 
+        nth($fontSizeExpectedRem, 4), 
+        300
+    ),
+    ('m-plus', 
+        nth($fontSizeExpectedRem, 5), 
+        400
+    ),
+    ('m', 
+        nth($fontSizeExpectedRem, 6), 
+        400
+    ),
+    ('s-plus', 
+        nth($fontSizeExpectedRem, 7), 
+        400
+    ),
+    ('s', 
+        nth($fontSizeExpectedRem, 8), 
+        400
+    ),
+    ('xs', 
+        nth($fontSizeExpectedRem, 9), 
+        400
+    ),
+    ('mi', 
+        nth($fontSizeExpectedRem, 10), 
+        700
+    )
+);
 
 // Testing -- uiFontSize
 @include describe("Testing font definition:") {
@@ -66,13 +109,33 @@ $fontsExpected: (
                     @include uiFont($font);
                 }
                 @include expect {
-                    font-size: nth(nth($fontsExpected, $i), 2);
-                    font-weight: #{nth(nth($fontsExpected, $i), 3)};
+                    font-size: nth(nth($fontsExpectedEm, $i), 2);
+                    font-weight: #{nth(nth($fontsExpectedEm, $i), 3)};
                 }
             }
         }
         $i: $i+1;
     }
+
+    $i: 1;
+    
+    @include setRem(true);
+
+    @each $font in $fontList {
+        @include it("Convert Font size to rem: " $font) {
+            @include assert {
+                @include output {
+                    @include uiFont($font);
+                }
+                @include expect {
+                    font-size: nth(nth($fontsExpectedRem, $i), 2);
+                    font-weight: #{nth(nth($fontsExpectedRem, $i), 3)};
+                }
+            }
+        }
+        $i: $i+1;
+    }
+
 }
 
 
@@ -86,7 +149,7 @@ $fontsExpected: (
                     @include uiFontSize($fontSize);
                 }
                 @include expect {
-                    font-size: #{nth($fontSizeExpected, $i)};
+                    font-size: #{nth($fontSizeExpectedRem, $i)};
                 }
             }
         }
