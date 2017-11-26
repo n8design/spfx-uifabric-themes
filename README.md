@@ -94,4 +94,3 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-[office.theme.functions.statestyle]: ./assets/office.theme.functions.statestyle.png "Possible stateStyle results"
