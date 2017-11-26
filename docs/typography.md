@@ -1,5 +1,23 @@
 # Typography
-These functions can be used to create custom typography classes based on Office UI Fabric instead of using the default provided classes. These classes also provide `em` based font sizes and not fixed pixel based.
+These functions can be used to create custom CSS classes fore the typography. Font values are based on Office UI Fabric and use em/rem instead of pixel values.
+
+## Configure output
+All `mixin` returns the font size values as `em` by default. This behaviour can be changed by calling the following mixin.
+### uiUseRem(boolean)
+
+* true  
+turns output to REM units
+* false - default value  
+turns output to EM units
+
+The follwing examples shows how to switch between REM and EM units
+
+```sass
+
+// turn rem return values on.
+@include uiUseRem(true);
+
+```
 
 ## uiFontSize(fontSizeParam)
 Possible font size values that can be passed to this SASS `@mixin` are:

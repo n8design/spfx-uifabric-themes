@@ -102,8 +102,11 @@ $fontsExpectedRem: (
 @include describe("Testing font definition:") {
     $i: 1;
 
+    // Set output to EM
+    @include uiUseRem(false);
+
     @each $font in $fontList {
-        @include it("Convert Font size to em: " $font) {
+        @include it("Convert Font size to em:  " $font) {
             @include assert {
                 @include output {
                     @include uiFont($font);
@@ -119,6 +122,7 @@ $fontsExpectedRem: (
 
     $i: 1;
     
+    // Set output to REM
     @include uiUseRem(true);
 
     @each $font in $fontList {
@@ -142,8 +146,34 @@ $fontsExpectedRem: (
 // Testing -- uiFontWeight
 @include describe("Testing font size:") {
     $i: 1; // increment over loop to find correct index;
+    @debug $useRem;
+
+    // Set output to EM
+    @include uiUseRem(false);
+        
+
     @each $fontSize in $fontList {
-        @include it("Expected Font Weight: " nth($fontList, $i)) {
+        @include it("Expected Font size in em:  " nth($fontList, $i)) {
+            @include assert {
+                @include output {
+                    @include uiFontSize($fontSize);
+                }
+                @include expect {
+                    font-size: #{nth($fontSizeExpectedEm, $i)};
+                }
+            }
+        }
+        $i: $i+1;
+    }
+
+    // reseting counter
+    $i: 1;
+
+    // Set output to REM
+    @include uiUseRem(true);
+
+    @each $fontSize in $fontList {
+        @include it("Expected Font size in rem: " nth($fontList, $i)) {
             @include assert {
                 @include output {
                     @include uiFontSize($fontSize);
@@ -155,11 +185,14 @@ $fontsExpectedRem: (
         }
         $i: $i+1;
     }
+        
 }
 
 // Testing -- uiFont
 @include describe("Testing font weight:") {
+    
     $i: 1; // increment over loop to find correct index;
+    
     @each $fontWeight in $fontWeights {
         @include it("Expected Font Weight: " nth($fontWeightExpected, $i)) {
             @include assert {
@@ -174,3 +207,26 @@ $fontsExpectedRem: (
         $i: $i+1;
     }
 }
+
+// Testing -- uiFont
+@include describe("Test switching between REM and EM") {
+    
+    
+        @include it("Testing REM an EM switch:") {
+            @include assert {
+                @include output {
+                    @include uiUseRem(true);
+                    @include uiFontSize(su);
+                    @include uiUseRem(false);
+                    @include uiFontSize(su);
+
+                }
+                @include expect {
+                    font-size: #{nth($fontSizeExpectedRem, 1)};
+                    font-size: #{nth($fontSizeExpectedEm, 1)};
+                }
+            }
+        }
+
+}
+
