@@ -21,9 +21,24 @@ Possible font size values that can be passed to this SASS mixin are:
 To use this mixin simply includes this style with and the parameter.
 
 ```sass
-
 .mySuperLargeClass{
-    @include uiFontSize(su); // Will return font size 3em = 42px;
+    @include uiFontSize(su); // Will return font-size 3em = 42px;
+}
+```
+
+**Result in CSS**
+
+```sass
+.mySuperLargeClass{
+    font-size: 3em // 3em at a base font size of 14px = 42px
+}
+```
+
+***Result in SPFx Projects***
+
+```sass
+.mySuperLargeClass_714f5755{
+    font-size: 3em // 3em at a base font size of 14px = 42px
 }
 ```
 
