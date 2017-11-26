@@ -7,13 +7,21 @@ Possible font size values that can be passed to this SASS mixin are:
 
 | $fontSizeParameter| Output font size | UI Fabric | UI Fabric size |
 | ------------- | -----:| ------------- | ----:|
-| su      | 3em | ms-fontSize-su  | 42px |
-| xxl     | 2em | ms-fontSize-xxl | 28px |
-| xl      | 1.5em | ms-fontSize-xl  | 21px |
-| l       | 1.21429em | ms-fontSize-l | 17px |
-| m-plus  | 1.07143em | ms-fontSize-mPlus | 15px |
-| m       | 1em | ms-fontSize-m | 14px |
-| s-plus  | 0.92857em | ms-fontSize-sPlus | 13px |
-| s       | 0.85714em | ms-fontSize-s | 12px |
-| xs      | 0.78571em | ms-fontSize-xs | 11px |
-| mi      | 0.71429em | ms-fontSize-mi | 10px |
+| su      | 3em | .ms-fontSize-su  | 42px |
+| xxl     | 2em | .ms-fontSize-xxl | 28px |
+| xl      | 1.5em | .ms-fontSize-xl  | 21px |
+| l       | 1.21429em | .ms-fontSize-l | 17px |
+| m-plus  | 1.07143em | .ms-fontSize-mPlus | 15px |
+| m       | 1em | .ms-fontSize-m | 14px |
+| s-plus  | 0.92857em | .ms-fontSize-sPlus | 13px |
+| s       | 0.85714em | .ms-fontSize-s | 12px |
+| xs      | 0.78571em | .ms-fontSize-xs | 11px |
+| mi      | 0.71429em | .ms-fontSize-mi | 10px |
+
+To use this mixin simply includes this style with and the parameter.
+
+```sass
+
+.mySuperLargeClass{
+    @include uiFontSize(su); // Will return font size 3em = 42px;
+}
