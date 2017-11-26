@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha",
-    "commit": "npm test",
-    "postinstall": "npm rebuild"
+    "commit": "npm test"
   },
   "keywords": [
     "Office",

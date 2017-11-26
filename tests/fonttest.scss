@@ -119,7 +119,7 @@ $fontsExpectedRem: (
 
     $i: 1;
     
-    @include setRem(true);
+    @include uiUseRem(true);
 
     @each $font in $fontList {
         @include it("Convert Font size to rem: " $font) {

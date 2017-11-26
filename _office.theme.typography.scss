@@ -1,4 +1,4 @@
-@mixin setRem($rem){
+@mixin uiUseRem($rem){
     $useRem: $rem !global;
 }
 
