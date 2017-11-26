@@ -25,3 +25,6 @@ To use this mixin simply includes this style with and the parameter.
 .mySuperLargeClass{
     @include uiFontSize(su); // Will return font size 3em = 42px;
 }
+```
+
+
