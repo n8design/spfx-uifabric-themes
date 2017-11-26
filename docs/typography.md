@@ -1,11 +1,10 @@
 # Typography
 These functions can be used to create custom typography classes based on Office UI Fabric instead of using the default provided classes. These classes also provide `em` based font sizes and not fixed pixel based.
 
-## uiFontSize(fontSizeParameter)
-Possible font size values that can be passed to this SASS mixin are:
-3em, 2em, 1.5em, 1.21429em, 1.07143em, 1em, 0.92857em, 0.85714em, 0.78571em, 0.71429em
+## uiFontSize(fontSizeParam)
+Possible font size values that can be passed to this SASS `@mixin` are:
 
-| fontSizeParameter | Output font size | UI Fabric | UI Fabric size |
+| fontSizeParam | Output font size | UI Fabric | UI Fabric size |
 | ------------- | -----:| ------------- | ----:|
 | **su**      | 3em | .ms-fontSize-su  | 42px |
 | **xxl**     | 2em | .ms-fontSize-xxl | 28px |
@@ -42,10 +41,10 @@ To use this mixin simply includes this style with and the parameter.
 }
 ```
 
-## uiFontWidth(fontWeightParameter)
+## uiFontWidth(fontWeightParam)
 This function will return you one of the following four defined font weights.
 
-| fontWeightParamter | Name | CSS value | Office UI Fabric Definition |
+| fontWeightParam | Name | CSS value | Office UI Fabric Definition |
 | ------------- | ----- |:-------------:| ---- |
 | **light**      | Thin / Hairline | 100  | .ms-fontWeight-light |
 | **semilight**  | Light           | 300  | .ms-fontWeight-semilight |
@@ -75,7 +74,7 @@ To use this mixin use the following syntax in your classes:
 }
 
 .myCustomTextStyle{
-    font-wight: 100;
+    font-weight: 100;
 }
 
 ```
@@ -89,9 +88,29 @@ To use this mixin use the following syntax in your classes:
 }
 
 .myCustomTextStyle_714f5755{
-    font-wight: 100;
+    font-weight: 100;
 }
 
 ```
 
-# uiFont($fontparameter)
+# uiFont($fontPara)
+This `@mixin` will return a combination font weight and font size defined by Office UI Fabric.
+
+| fontSizeParam | Font size | Font weight | UI Fabric | UI Fabric size |
+| ------------- | -----:| ---- | ------------- | ----:|
+| **su**      | 3em | 100 | .ms-font-su  | 42px |
+| **xxl**     | 2em | 100 | .ms-font-xxl | 28px |
+| **xl**      | 1.5em | 100 | .ms-font-xl  | 21px |
+| **l**       | 1.21429em | 300 | .ms-font-l | 17px |
+| **m-plus**  | 1.07143em | 400 |.ms-font-mPlus | 15px |
+| **m**       | 1em | 400 |.ms-font-m | 14px |
+| **s-plus**  | 0.92857em | 400 | .ms-font-sPlus | 13px |
+| **s**       | 0.85714em | 400 | .ms-font-s | 12px |
+| **xs**      | 0.78571em | 400 | .ms-font-xs | 11px |
+| **mi**      | 0.71429em | 700 | .ms-font-mi | 10px |
+
+
+
+
+
+
