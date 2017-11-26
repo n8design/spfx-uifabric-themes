@@ -1,11 +1,11 @@
 # Typography
 These functions can be used to create custom typography classes based on Office UI Fabric instead of using the default provided classes. These classes also provide `em` based font sizes and not fixed pixel based.
 
-## uiFontSize($fontSizeValue)
+## uiFontSize(fontSizeParameter)
 Possible font size values that can be passed to this SASS mixin are:
 3em, 2em, 1.5em, 1.21429em, 1.07143em, 1em, 0.92857em, 0.85714em, 0.78571em, 0.71429em
 
-| $fontSizeParameter| Output font size | UI Fabric | UI Fabric size |
+| fontSizeParameter| Output font size | UI Fabric | UI Fabric size |
 | ------------- | -----:| ------------- | ----:|
 | su      | 3em | .ms-fontSize-su  | 42px |
 | xxl     | 2em | .ms-fontSize-xxl | 28px |
@@ -34,7 +34,7 @@ To use this mixin simply includes this style with and the parameter.
 }
 ```
 
-***Result in SPFx Projects***
+**Result in SPFx Projects**
 
 ```sass
 .mySuperLargeClass_714f5755{
@@ -42,4 +42,38 @@ To use this mixin simply includes this style with and the parameter.
 }
 ```
 
+## uiFontWidth(fontWidthParameter)
+This function will return you one of the following four defined font weights.
 
+| fontWidthParameter | Name | CSS value | Office UI Fabric Definition |
+| ----- | ---- | ---- | ---- |
+| light | Thin / Hairline | 100 | .ms-fontWight-light | 
+| semilight | Light | 300 | semi-light |
+| regular | Normal | 400 | regular |
+| semibold | Bold | 700 | semibold |
+
+To use this mixin use the following syntax in your classes:
+
+```sass
+.myBoldText{
+    @include(semibold); // will return the numeric value 700 / bold
+}
+```
+
+**Result in CSS**
+
+```sass
+.myBoldText{
+    font-weight: bold;
+}
+```
+
+**Result in SPFx Projects**
+
+```sass
+.myBoldText_714f5755{
+    font-weight: bold;
+}
+```
+
+# uiFont($fontparameter)
