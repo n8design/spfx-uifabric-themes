@@ -46,8 +46,7 @@ To use this mixin simply includes this style with and the parameter.
 This function will return you one of the following four defined font weights.
 
 | fontWidthParameter | Name | CSS value | Office UI Fabric Definition |
-
-| --------- | --------------- | --- | ------------------------ |
+| --------- | --------------- |:---:| ------------------------
 | light     | Thin / Hairline | 100 | .ms-fontWeight-light     | 
 | semilight | Light           | 300 | .ms-fontWeight-semilight |
 | regular   | Normal          | 400 | .ms-fontWeight-regular   |
