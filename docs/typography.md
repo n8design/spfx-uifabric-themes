@@ -1,24 +1,6 @@
 # Typography
 These functions can be used to create custom CSS classes fore the typography. Font values are based on Office UI Fabric and use em/rem instead of pixel values.
 
-## Configure output
-All `mixin` returns the font size values as `em` by default. This behaviour can be changed by calling the following mixin.
-### uiUseRem(boolean)
-
-* true  
-turns output to REM units
-* false - default value  
-turns output to EM units
-
-The follwing examples shows how to switch between REM and EM units
-
-```sass
-
-// turn rem return values on.
-@include uiUseRem(true);
-
-```
-
 ## uiFontSize(fontSizeParam)
 Possible font size values that can be passed to this SASS `@mixin` are:
 
@@ -173,8 +155,37 @@ To use this `@mixin`:
 
 ```
 
+## Configure output
+All `mixin` returns the font size values as `em` by default. This behaviour can be changed by calling the following mixin.
 
+### uiUseRem(boolean)
 
+* true  
+turns output to REM units
+* false - default value  
+turns output to EM units
+
+The following sample shows how to switch between REM and EM units.
+
+```sass
+
+// turn rem return values ON.
+@include uiUseRem(true);
+
+// output font size in REM
+.myTextInRem{
+	@include uiFont(su);
+}
+
+// turn rem return values OFF.
+@include uiUseRem(false);
+
+// font size will now returned in EM
+.myTextInRem{
+	@include uiFont(su);
+}
+
+```
 
 
 

@@ -212,7 +212,7 @@ $fontsExpectedRem: (
 @include describe("Test switching between REM and EM") {
     
     
-        @include it("Testing REM an EM switch:") {
+        @include it("Testing REM an EM switch") {
             @include assert {
                 @include output {
                     @include uiUseRem(true);
