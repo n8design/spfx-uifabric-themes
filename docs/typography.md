@@ -55,25 +55,43 @@ This function will return you one of the following four defined font weights.
 To use this mixin use the following syntax in your classes:
 
 ```sass
+
 .myBoldText{
     @include(semibold); // will return the numeric value 700 / bold
 }
+
+.myCustomTextStyle{
+		@include(light)
+}
+
 ```
 
 **Result in CSS**
 
 ```sass
+
 .myBoldText{
-    font-weight: bold;
+    font-weight: 700;
 }
+
+.myCustomTextStyle{
+    font-wight: 100;
+}
+
 ```
 
 **Result in SPFx Projects**
 
 ```sass
+
 .myBoldText_714f5755{
-    font-weight: bold;
+    font-weight: 700;
 }
+
+.myCustomTextStyle_714f5755{
+    font-wight: 100;
+}
+
 ```
 
 # uiFont($fontparameter)
