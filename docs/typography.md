@@ -97,8 +97,8 @@ To use this mixin use the following syntax in your classes:
 This `@mixin` will return a combination font weight and font size defined by Office UI Fabric.
 
 | fontSizeParam | Font size | Font weight | UI Fabric | UI Fabric size |
-| ------------- | -----:| ---- | ------------- | ----:|
-| **su**      | 3em | 100 | .ms-font-su  | 42px |
+| ------------- | -----:|:----:| ------------- | ----:|
+| **su**      | 3em | 100 | .ms-font-su  | 42px |
 | **xxl**     | 2em | 100 | .ms-font-xxl | 28px |
 | **xl**      | 1.5em | 100 | .ms-font-xl  | 21px |
 | **l**       | 1.21429em | 300 | .ms-font-l | 17px |
