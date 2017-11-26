@@ -21,6 +21,7 @@ Go to any of your `.module.scss` files in your project and include the following
 // For all tools and utlities
 @import './node_modules/spfx-uifabric-themes/office.theme';
 ```
+
 If only the color variables are needed in the SPFX Project only the variables can be included too.
 
 ```scss
@@ -62,28 +63,12 @@ This will automatically add the theme slot for the background color.
 ```
 
 # Additional functions
+You will find all additional functions in the documentation:
 
-## stateStyle($state) 
-This functions returns the matching Office UI Fabric colors for the following states
-
-* alert
-* error
-* info
-* servere
-* success
-
-To use this function simplay pass in the string values.
-
-```scss
-// For Error Messages use you can pass: alert, error, info, servere, success
-.custErrorMsg{
-  padding: 0 1em;
-  line-height: 2em;
-  @include stateStyle('error');
-}
-```
-This function can create the following status fields for example:
-![stateStyle Sample Results][office.theme.functions.statestyle]
+* [Typopgraphy](./docs/typography.md)  
+Create font-weight, font-styles and general text styles
+* [State styles](./docs/statestyles.md)  
+Creates alert, error, info, server and success styles
 
 # License
 MIT License
