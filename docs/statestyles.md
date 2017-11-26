@@ -21,4 +21,4 @@ To use this function simplay pass in the string values.
 }
 ```
 This function can create the following status fields for example:
-![stateStyle Sample Results][office.theme.functions.statestyle]
+![stateStyle Sample Results][../assets/office.theme.functions.statestyle]
