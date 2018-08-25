@@ -24,14 +24,14 @@
   "author": "Stefan Bauer <@stfbauer>",
   "license": "MIT",
   "dependencies": {
-    "gulp-plumber": "^1.1.0",
-    "node-sass": "^4.7.2",
+    "gulp-plumber": "^1.2.0",
+    "node-sass": "^4.9.3",
     "sass-test.sh": "^1.4.0"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-mocha": "^6.0.0",
-    "mocha": "^5.0.0",
+    "mocha": "^5.2.0",
     "sass-true": "^4.0.0",
     "sassytester": "^1.1.0"
   },
