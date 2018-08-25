@@ -195,24 +195,26 @@ const themeSlots = [
 const cssVarThemeID = "spfxCSSVarsThemeID";
 const themeState = "__themeState__";
 
-export default class uiFabricCSS {
+export default function uiFabricCSS() {
 
-    createCSSVariables() {
-        let themeCache = null,
-            allVariables = [];
+    // createCSSVariables() {
+    let themeCache = null,
+        allVariables = [];
 
-        if (document.getElementById(cssVarThemeID)) {
-            return;
-        }
+    if (document.getElementById(cssVarThemeID)) {
+        return;
+    }
 
-        if (themeState in window) {
+    if (themeState in window) {
 
-            themeCache = window[themeState];
+        themeCache = window[themeState];
+
+        if ('theme' in themeCache && themeCache.theme !== undefined) {
 
             let keys = Object.keys(themeCache.theme);
 
             keys.forEach(element => {
-                allVariables.push("    --" + element + ": " + themeCache.theme[element] + ";");
+                allVariables.push('    --' + element + ': ' + themeCache.theme[element] + ';');
             });
 
         } else {
@@ -221,16 +223,19 @@ export default class uiFabricCSS {
 
         }
 
-        var includeInRoot = `:root{
-        content: 'hello world';
-        ${allVariables.sort().join('\r\n')}
-    }`;
+    } else {
 
-        let styleSheetFragment = document.createElement('style');
-        styleSheetFragment.id = cssVarThemeID;
-        styleSheetFragment.innerHTML = includeInRoot;
-        document.head.appendChild(styleSheetFragment);
+        allVariables = themeSlots;
 
     }
+
+    var includeInRoot = `:root{
+          ${allVariables.sort().join('\r\n')}
+      }`;
+
+    let styleSheetFragment = document.createElement('style');
+    styleSheetFragment.id = cssVarThemeID;
+    styleSheetFragment.innerHTML = includeInRoot;
+    document.head.appendChild(styleSheetFragment);
 
 };
