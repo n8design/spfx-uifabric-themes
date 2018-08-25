@@ -195,9 +195,9 @@ const themeSlots = [
 const cssVarThemeID = "spfxCSSVarsThemeID";
 const themeState = "__themeState__";
 
-const uiFabricCSS = () => {
+export default class uiFabricCSS {
 
-    createCSSVariables: () => {
+    createCSSVariables() {
         let themeCache = null,
             allVariables = [];
 
@@ -234,6 +234,3 @@ const uiFabricCSS = () => {
     }
 
 };
-
-module.exports = uiFabricCSS;
-module.exports = uiFabricCSS.createCSSVariables;

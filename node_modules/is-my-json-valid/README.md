@@ -109,12 +109,15 @@ var doc = {hello: 'world', notInSchema: true}
 console.log(filter(doc)) // {hello: 'world'}
 ```
 
-## Verbose mode outputs the value on errors
+## Verbose mode shows more information about the source of the error
 
-is-my-json-valid outputs the value causing an error when verbose is set to true
+When the `verbose` options is set to `true`, `is-my-json-valid` also outputs:
+
+- `value`: The data value that caused the error
+- `schemaPath`: an array of keys indicating which sub-schema failed
 
 ``` js
-var validate = validator({
+var schema = {
   required: true,
   type: 'object',
   properties: {
@@ -123,12 +126,33 @@ var validate = validator({
       type: 'string'
     }
   }
-}, {
+}
+var validate = validator(schema, {
   verbose: true
 })
 
 validate({hello: 100});
-console.log(validate.errors) // {field: 'data.hello', message: 'is the wrong type', value: 100, type: 'string'}
+console.log(validate.errors)
+// [ { field: 'data.hello',
+//     message: 'is the wrong type',
+//     value: 100,
+//     type: 'string',
+//     schemaPath: [ 'properties', 'hello' ] } ]
+```
+
+Many popular libraries make it easy to retrieve the failing rule with the `schemaPath`:
+```
+var schemaPath = validate.errors[0].schemaPath
+var R = require('ramda')
+
+console.log( 'All evaluate to the same thing: ', R.equals(
+  schema.properties.hello,
+  { required: true, type: 'string' },
+  R.path(schemaPath, schema),
+  require('lodash').get(schema, schemaPath),
+  require('jsonpointer').get(schema, [""].concat(schemaPath))
+))
+// All evaluate to the same thing: true
 ```
 
 ## Greedy mode tries to validate as much as possible
@@ -194,6 +218,43 @@ At the time of writing, is-my-json-valid is the __fastest validator__ when runni
 * [z-schema benchmark](https://rawgit.com/zaggino/z-schema/master/benchmark/results.html)
 
 If you know any other relevant benchmarks open a PR and I'll add them.
+
+## TypeScript support
+
+This library ships with TypeScript typings. They are still early on and not perfect at the moment, but should hopefully handle the most common cases. If you find anything that doesn't work, please open an issue and we'll try to solve it.
+
+The typings are using `unknown` and thus require TypeScript 3.0 or later.
+
+Here is a quick sample of usage together with express:
+
+```typescript
+import createError = require('http-errors')
+import createValidator = require('is-my-json-valid')
+import { Request, Response, NextFunction } from 'express'
+
+const personValidator = createValidator({
+  type: 'object',
+  properties: {
+    name: { type: 'string' },
+    age: { type: 'number' },
+  },
+  required: [
+    'name'
+  ]
+})
+
+export function post (req: Request, res: Response, next: NextFunction) {
+  // Here req.body is typed as: any
+
+  if (!personValidator(req.body)) {
+    throw createError(400, { errors: personValidator.errors })
+  }
+
+  // Here req.body is typed as: { name: string, age: number | undefined }
+}
+```
+
+As you can see, the typings for is-my-json-valid will contruct an interface from the schema passed in. This allows you to work with your incoming json body in a type safe way.
 
 ## License
 
