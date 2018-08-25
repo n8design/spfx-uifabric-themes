@@ -236,3 +236,4 @@ const uiFabricCSS = () => {
 };
 
 module.exports = uiFabricCSS;
+module.exports = uiFabricCSS.createCSSVariables;
