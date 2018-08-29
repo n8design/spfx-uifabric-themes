@@ -52,6 +52,8 @@ The result on the web part is exactly the same as using the SASS variables.
 
 ![cSS Variables](../assets/css-variables-web-part.png)
 
+Further reading on [CSS Variables support for SPFx projects through spfx-uifabric-themes](https://wp.me/p2iCnX-14x)
+
 ## Available CSS Variables
 
 ```css
