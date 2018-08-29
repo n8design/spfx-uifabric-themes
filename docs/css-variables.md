@@ -55,6 +55,7 @@ The result on the web part is exactly the same as using the SASS variables.
 ## Available CSS Variables
 
 ```css
+:root{
 --ouif-AccentLines: #0086f4;
 --ouif-AccentText: #0078d7;
 --ouif-BackgroundOverlay: rgba(255, 255, 255, 0.85);
@@ -247,5 +248,6 @@ The result on the web part is exactly the same as using the SASS variables.
 --ouif-whiteTranslucent40: rgba(255, 255, 255, 0.40);
 --ouif-yellow: #ffb900;
 --ouif-yellowLight: #fff100;
+}
 ```
 
