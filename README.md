@@ -62,6 +62,11 @@ This will automatically add the theme slot for the background color.
 }
 ```
 
+# CSS Variable support for SPFx projects
+
+Now native CSS variable can also be used in SPFx project using this project.
+Read everything on this in my [blog post](https://wp.me/p2iCnX-14x) or on the dedicated [documentation page](./docs/css-variables.md)
+
 # Additional functions
 You will find all additional functions in the documentation:
 
