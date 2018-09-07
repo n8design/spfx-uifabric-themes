@@ -199,7 +199,7 @@ const nsPrefix = "ouif-"
 export default function uiFabricCSS() {
 
     // createCSSVariables() {
-    let themeCache = null,
+    var themeCache = null,
         allVariables = [];
 
     if (document.getElementById(cssVarThemeID)) {
@@ -212,9 +212,9 @@ export default function uiFabricCSS() {
 
         if ('theme' in themeCache && themeCache.theme !== undefined) {
 
-            let keys = Object.keys(themeCache.theme);
+            var keys = Object.keys(themeCache.theme);
 
-            keys.forEach(element => {
+            keys.forEach(function(element){
                 allVariables.push('    --' + nsPrefix + element + ': ' + themeCache.theme[element] + ';');
             });
 
@@ -230,11 +230,11 @@ export default function uiFabricCSS() {
 
     }
 
-    var includeInRoot = `:root{
-          ${allVariables.sort().join('\r\n')}
-      }`;
+    var includeInRoot = ':root{'+
+          allVariables.sort().join('\r\n')
+      '}';
 
-    let styleSheetFragment = document.createElement('style');
+    var styleSheetFragment = document.createElement('style');
     styleSheetFragment.id = cssVarThemeID;
     styleSheetFragment.innerHTML = includeInRoot;
     document.head.appendChild(styleSheetFragment);

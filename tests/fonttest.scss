@@ -219,7 +219,6 @@ $fontsExpectedRem: (
                     @include uiFontSize(su);
                     @include uiUseRem(false);
                     @include uiFontSize(su);
-
                 }
                 @include expect {
                     font-size: #{nth($fontSizeExpectedRem, 1)};
@@ -229,4 +228,5 @@ $fontsExpectedRem: (
         }
 
 }
+
 
