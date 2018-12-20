@@ -1,4 +1,4 @@
-@mixin uiUseRem($rem){
+@mixin uiUseRem($rem) {
     $useRem: $rem !global;
 }
 
@@ -36,27 +36,25 @@
         $fdTitle: nth($fontDef, 1); // get font weight
         $fdWeight: nth($fontDef, 2); // 
         $fdValue: $fdWeight; // @warn $fdTitle $fabric-font    $fdTitle == nth($fabric-font, 1);
-
         @if $fdTitle==nth($fabric-font, 1) {
             font-weight: call($fdValue);
         }
-
     }
 }
 
 // Converts the font size out In EM
 @mixin uiFontSize($fabric-font) {
-    
-        @each $fontDef in $fontSizes {
-    
-            // check Office UI Frabric name
-            $fdTitle: nth($fontDef, 1); // base office ui fabric in PX value
-            $fdSizePx: nth($fontDef, 2); // base office ui fabric in EM value
-            $fdSizeEm: if($useRem, pxToRem($fdSizePx), pxToEm($fdSizePx)); // get font weight
-            $fdWeight: nth($fontDef, 3);
-    
-            @if $fdTitle==$fabric-font {
-                font-size: $fdSizeEm;
-            }
+
+    @each $fontDef in $fontSizes {
+
+        // check Office UI Frabric name
+        $fdTitle: nth($fontDef, 1); // base office ui fabric in PX value
+        $fdSizePx: nth($fontDef, 2); // base office ui fabric in EM value
+        $fdSizeEm: if($useRem, pxToRem($fdSizePx), pxToEm($fdSizePx)); // get font weight
+        $fdWeight: nth($fontDef, 3);
+
+        @if $fdTitle==$fabric-font {
+            font-size: $fdSizeEm;
         }
     }
+}
