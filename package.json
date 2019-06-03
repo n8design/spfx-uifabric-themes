@@ -32,7 +32,7 @@
     "gulp": "^4.0.0",
     "gulp-mocha": "^6.0.0",
     "mocha": "^6.0.0",
-    "sass-true": "^4.0.0",
+    "sass-true": "^5.0.0",
     "sassytester": "^1.1.0"
   },
   "repository": {
