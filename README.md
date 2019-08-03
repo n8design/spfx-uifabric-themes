@@ -14,7 +14,7 @@ npm install --save-dev spfx-uifabric-themes
 
 After this installation this package should be listed as a dev dependency in your SPFX Project.
 
-# Usage
+# Usage - Supported but deprecated
 Go to any of your `.module.scss` files in your project and include the following SASS @import statement 
 
 ```scss
@@ -61,6 +61,26 @@ This will automatically add the theme slot for the background color.
   color: "[theme:errorText, default: #333333]"
 }
 ```
+
+# BETA - Enhanced theme slot selection
+
+You can use it the same way like before but the variable reference will change to.
+
+```scss
+@import './node_modules/spfx-uifabric-themes/uif.theme';
+```
+
+This new SASS file will support more that 100 different themes slots such as backgroundColor, textColor.
+
+The variables have been renamed to follow this pattern now:
+
+```scss
+.container {
+  background-color: $uif-primaryBackground; // Adds "[theme:primaryBackground, default:#ffffff]";
+}
+```
+
+
 
 # Use TypeDefinitions for `window.__themeState__` object
 
