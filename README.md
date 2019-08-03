@@ -70,6 +70,12 @@ In your web part code add the following line to your webpart or extension projec
 import {Theme} from 'spfx-uifabric-themes';
 ```
 
+After that you should see the following extensions on the window object.
+
+![TypeScript themestate][TypeScript]
+
+
+
 # CSS Variable support for SPFx projects
 
 Now native CSS variable can also be used in SPFx project using this project.
@@ -107,3 +113,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
+[TypeScript]: https://raw.githubusercontent.com/StfBauer/spfx-uifabric-themes/master/assets/typedefiniton-themestate.png
