@@ -1,4 +1,8 @@
 # Typography
+
+!!! info
+     The typography function is currently only supported when the predecessor `office.theme` will be imported. Currently there is no support in the `uif.theme` available yet.
+
 These functions can be used to create custom CSS classes fore the typography. Font values are based on Office UI Fabric and use em/rem instead of pixel values.
 
 ## uiFontSize(fontSizeParam)
@@ -19,25 +23,25 @@ Possible font size values that can be passed to this SASS `@mixin` are:
 
 To use this mixin simply includes this style with and the parameter.
 
-```sass
+```scss
 .mySuperLargeClass{
-    @include uiFontSize(su); // Will return font-size 3em = 42px;
+    @include uiFontSize(su); /* Will return font-size 3em = 42px; */
 }
 ```
 
 **Result in CSS**
 
-```sass
+```scss
 .mySuperLargeClass{
-    font-size: 3em // 3em at a base font size of 14px = 42px
+    font-size: 3em; /* 3em at a base font size of 14px = 42px */
 }
 ```
 
 **Result in SPFx Projects**
 
-```sass
+```css
 .mySuperLargeClass_714f5755{
-    font-size: 3em // 3em at a base font size of 14px = 42px
+    font-size: 3em; /* 3em at a base font size of 14px = 42px */
 }
 ```
 
@@ -53,21 +57,21 @@ This function will return you one of the following four defined font weights.
 
 To use this mixin use the following syntax in your classes:
 
-```sass
+```scss
 
 .myBoldText{
-    @include(semibold); // will return the numeric value 700 / bold
+    @include(semibold); /* will return the numeric value 700 / bold */
 }
 
 .myCustomTextStyle{
-		@include(light)
+	@include(light);
 }
 
 ```
 
 **Result in CSS**
 
-```sass
+```scss
 
 .myBoldText{
     font-weight: 700;
@@ -81,7 +85,7 @@ To use this mixin use the following syntax in your classes:
 
 **Result in SPFx Projects**
 
-```sass
+```css
 
 .myBoldText_714f5755{
     font-weight: 700;
@@ -125,7 +129,7 @@ To use this `@mixin`:
 
 **Result in CSS**
 
-```sass
+```css
 
 .myBoldText{
     font-size: 3em;
@@ -133,7 +137,7 @@ To use this `@mixin`:
 }
 
 .myCustomTextStyle{
-		font-size: 0.71429em;
+	font-size: 0.71429em;
     font-weight: 100;
 }
 
@@ -141,7 +145,7 @@ To use this `@mixin`:
 
 **Result in SPFx Projects**
 
-```sass
+```css
 
 .myBoldText_714f5755{
     font-size: 3em;
@@ -149,7 +153,7 @@ To use this `@mixin`:
 }
 
 .myCustomTextStyle_714f5755{
-		font-size: 0.71429em;
+	font-size: 0.71429em;
     font-weight: 100;
 }
 
@@ -167,7 +171,7 @@ turns output to EM units
 
 The following sample shows how to switch between REM and EM units.
 
-```sass
+```scss
 
 // turn rem return values ON.
 @include uiUseRem(true);

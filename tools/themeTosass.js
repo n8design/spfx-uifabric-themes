@@ -1,8 +1,8 @@
 const path = require('path'),
     fs = require('fs'),
     coreFile = path.join(__dirname, '../src/theme-object.json'),
-    outputFile = path.join(__dirname, '../_uif.theme.scss'),
-    sassPrefix = "$uif-";
+    outputFile = path.join(__dirname, '../_uif.theme.var.scss'),
+    sassPrefix = "$ouif-";
 
 if (fs.existsSync(coreFile)) {
 

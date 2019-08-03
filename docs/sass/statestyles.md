@@ -1,5 +1,5 @@
 # State styles
-The following method will help to create state styles.
+The following method will helps to create state styles for user notifications.q
 
 ## stateStyle($state) 
 This functions returns the matching Office UI Fabric colors for the following states
@@ -13,7 +13,6 @@ This functions returns the matching Office UI Fabric colors for the following st
 To use this function simplay pass in the string values.
 
 ```scss
-// For Error Messages use you can pass: alert, error, info, servere, success
 .custErrorMsg{
   padding: 0 1em;
   line-height: 2em;
