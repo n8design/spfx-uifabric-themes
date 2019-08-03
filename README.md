@@ -62,6 +62,14 @@ This will automatically add the theme slot for the background color.
 }
 ```
 
+# Use TypeDefinitions for `window.__themeState__` object
+
+In your web part code add the following line to your webpart or extension project.
+
+```typescript
+import {Theme} from 'spfx-uifabric-themes';
+```
+
 # CSS Variable support for SPFx projects
 
 Now native CSS variable can also be used in SPFx project using this project.
