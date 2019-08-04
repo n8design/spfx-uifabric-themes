@@ -13,7 +13,6 @@ This functions returns the matching Office UI Fabric colors for the following st
 To use this function simplay pass in the string values.
 
 ```scss
-// For Error Messages use you can pass: alert, error, info, servere, success
 .custErrorMsg{
   padding: 0 1em;
   line-height: 2em;
@@ -23,4 +22,4 @@ To use this function simplay pass in the string values.
 This function can create the following status fields for example:
 ![stateStyle Sample Results][office.theme.functions.statestyle]
 
-[office.theme.functions.statestyle]: ../assets/office.theme.functions.statestyle.png "Possible stateStyle results"
+[office.theme.functions.statestyle]: ./assets/office.theme.functions.statestyle.png "Possible stateStyle results"

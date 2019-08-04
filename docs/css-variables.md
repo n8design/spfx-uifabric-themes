@@ -1,4 +1,6 @@
-# How to use CSS Variables in SPFx projects
+# CSS Variables in SPFx
+
+## Getting started
 
 To use CSS variable in your next project simply install this package as a dependency.
 
@@ -12,7 +14,7 @@ On your project in the web part code or extension code import the dependency.
 import styles from './HelloWorldWebPart.module.scss';
 import * as strings from 'HelloWorldWebPartStrings';
 
-// ⌄⌄⌄⌄ import dependency here ⌄⌄⌄⌄
+/* ⌄⌄⌄⌄ import dependency here ⌄⌄⌄⌄ */
 import uiFabricCSSVariables from 'spfx-uifabric-themes';
 
 ```
@@ -42,8 +44,8 @@ In CSS simply reference to the theme slot variables.
 ```css
 .row {
   @include ms-Grid-row;
-  color: var(--ouif-white); // use theme color set to white
-  background-color: var(--ouif-themeDark); // use color defined for themeDark.
+  color: var(--ouif-white); /* use theme color set to white */
+  background-color: var(--ouif-themeDark); /* use color defined for themeDark. */
   padding: 20px;
 }
 ```

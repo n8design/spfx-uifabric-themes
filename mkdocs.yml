@@ -1,0 +1,8 @@
+site_name: SPFx-uifabric-themes
+theme:
+  name: 'material'
+  palette:
+    primary: 'cyan'
+    accent: 'pink'
+markdown_extensions:
+  - codehilite
