@@ -2,6 +2,7 @@
   "name": "spfx-uifabric-themes",
   "version": "0.7.0-1",
   "description": "Include theme slots in your SharePoint Framework Project",
+  "main": "index.js",
   "types": "./types/themestate.d.ts",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha",
