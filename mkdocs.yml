@@ -2,6 +2,7 @@ site_name: SPFx-uifabric-themes
 nav:
   - Home: 'index.md'
   - Release notes: 'release-notes.md'
+  - License: 'license.md'
   - SASS:
     - How To: ./sass/how-to.md
     - SASS Variable reference: ./sass/uif.theme.md

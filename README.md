@@ -14,55 +14,7 @@ npm install --save-dev spfx-uifabric-themes
 
 After this installation this package should be listed as a dev dependency in your SPFX Project.
 
-# Usage - Supported but deprecated
-Go to any of your `.module.scss` files in your project and include the following SASS @import statement 
-
-```scss
-// For all tools and utlities
-@import './node_modules/spfx-uifabric-themes/office.theme';
-```
-
-If only the color variables are needed in the SPFX Project only the variables can be included too.
-
-```scss
-// For color variables only
-@import './node_modules/spfx-uifabric-themes/office.theme.vars';
-```
-
-After that you can use theme slots like `$ms-themePrimary`.
-
-```scss
-@import './node_modules/spfx-uifabric-themes/office.theme';
-
-.container {
-  background-color: $ms-themePrimary;
-}
-// For Error Messages use you can pass: alert, error, info, servere, success
-.custErrorMsg{
-  padding: 0 1em;
-  line-height: 2em;
-  @include stateStyle('error');
-}
-
-```
-
-This will automatically add the theme slot for the background color.
-
-```css
-
-.container_742604fa {
-  background-color: "[theme:themePrimary, default:#0078d7]"
-}
-
-.custErrorMsg_742604fa {
-  padding: 0 1em;
-  line-height: 2em;
-  background-color: "[theme:errorBackground, default: #fde7e9]";
-  color: "[theme:errorText, default: #333333]"
-}
-```
-
-# BETA - Enhanced theme slot selection
+# Enhanced theme slot selection
 
 You can use it the same way like before but the variable reference will change to.
 
@@ -79,8 +31,6 @@ The variables have been renamed to follow this pattern now:
   background-color: $uif-primaryBackground; // Adds "[theme:primaryBackground, default:#ffffff]";
 }
 ```
-
-
 
 # Use TypeDefinitions for `window.__themeState__` object
 

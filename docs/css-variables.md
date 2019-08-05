@@ -56,9 +56,31 @@ The result on the web part is exactly the same as using the SASS variables.
 
 Further reading on [CSS Variables support for SPFx projects through spfx-uifabric-themes](https://wp.me/p2iCnX-14x)
 
+## CSS Variables and case-sensitivity
+
+In general CSS Variables are case sensitive and should be written in the correct case in order to get applied properly. The code register these theme CSS variables make sure that CAML case as well as lowercase variantes of the CSS variable exist.
+
+For example when the background overlay should get applied.
+
+```css
+.myClass{
+	background-color: var(--ouif-BackgroundOverlay);
+}
+```
+
+The same color will be applied when written like this.
+
+```css
+.myClass{
+	background-color: var(--ouif-backgroundoverlay);
+}
+```
+
 ## Available CSS Variables
 
 All color values shown here are based on the default theme and automatically adjust to your theme settings.
+
+### Reference of all registered theme slots
 
 ```css
 :root {
