@@ -1,4 +1,14 @@
 site_name: SPFx-uifabric-themes
+nav:
+  - Home: 'index.md'
+  - Release notes: 'release-notes.md'
+  - SASS:
+    - How To: ./sass/how-to.md
+    - SASS Variable reference: ./sass/uif.theme.md
+    - Typography: ./sass/typography.md
+    - State Styles: ./sass/statestyles.md
+  - CSS: 'css-variables.md'
+  - TypeScript: 'typescript.md'
 theme:
   name: 'material'
   palette:
@@ -6,3 +16,4 @@ theme:
     accent: 'pink'
 markdown_extensions:
   - codehilite
+  - admonition

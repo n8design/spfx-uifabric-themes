@@ -1,4 +1,8 @@
 # Typography
+
+!!! info
+     The typography function is currently only supported when the predecessor `office.theme` will be imported. Currently there is no support in the `uif.theme` available yet.
+
 These functions can be used to create custom CSS classes fore the typography. Font values are based on Office UI Fabric and use em/rem instead of pixel values.
 
 ## uiFontSize(fontSizeParam)
