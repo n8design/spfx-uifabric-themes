@@ -15,7 +15,7 @@ import styles from './HelloWorldWebPart.module.scss';
 import * as strings from 'HelloWorldWebPartStrings';
 
 /* ⌄⌄⌄⌄ import dependency here ⌄⌄⌄⌄ */
-import uiFabricCSSVariables from 'spfx-uifabric-themes';
+import uiFabricCSS from 'spfx-uifabric-themes';
 
 ```
 
@@ -26,7 +26,7 @@ export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorld
 
   public render(): void {
 
-    uiFabricCSSVariables();
+    uiFabricCSS();
 
     this.domElement.innerHTML = `
       <div class="${ styles.helloWorld}">
