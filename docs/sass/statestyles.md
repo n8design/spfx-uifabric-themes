@@ -1,5 +1,5 @@
 # State styles
-The following method will helps to create state styles for user notifications.
+The following method will helps to create state styles for user notifications.q
 
 ## stateStyle($state) 
 This functions returns the matching Office UI Fabric colors for the following states
