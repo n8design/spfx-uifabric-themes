@@ -3,15 +3,15 @@
 Go to any of your `.module.scss` files in your project and include the following SASS @import statement 
 
 ```css
-@import './node_modules/spfx-uifabric-themes/uif.theme';
+@import './node_modules/spfx-uifabric-themes/ouif.theme';
 ```
 
-In your web part you can make use fo all available theme slots on in [SASS Variables](uif.theme.md).
+In your web part you can make use fo all available theme slots on in [SASS Variables](ouif.theme.md).
 
-```sass
+```scss
 .container {
-  // Adds "[theme:primaryBackground, default:#ffffff]";
-  background-color: $uif-primaryBackground; 
+  /* Adds "[theme:primaryBackground, default:#ffffff]"; */
+  background-color: $ouif-primaryBackground; 
 }
 ```
 

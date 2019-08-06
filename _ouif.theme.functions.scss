@@ -3,19 +3,19 @@ $officeUIStates: alert, error, info, servere, success;
 
 // configuration color and background-color
 $officeUIStateCombinations: ( 
-  alert: ($uif-alertText, $uif-alertBackground), 
-  error: ($uif-errorText, $uif-errorBackground), 
-  info: ($uif-infoText, $uif-infoBackground), 
-  servere: ($uif-severeWarningText, $uif-severeWarningBackground), 
-  success: ($uif-successText, $uif-successBackground)
+  alert: ($ouif-alertText, $ouif-alertBackground), 
+  error: ($ouif-errorText, $ouif-errorBackground), 
+  info: ($ouif-infoText, $ouif-infoBackground), 
+  servere: ($ouif-severeWarningText, $ouif-severeWarningBackground), 
+  success: ($ouif-successText, $ouif-successBackground)
 );
 // configuration text colors
 $officeUIStateText: ( 
-  alert: $uif-alert, 
-  error: $uif-error,
-  info: $uif-infoText,
-  servere: $uif-severeWarning, 
-  success: $uif-successText
+  alert: $ouif-alert, 
+  error: $ouif-error,
+  info: $ouif-infoText,
+  servere: $ouif-severeWarning, 
+  success: $ouif-successText
 );
 
 /*

@@ -19,7 +19,7 @@ After this installation this package should be listed as a dev dependency in you
 You can use it the same way like before but the variable reference will change to.
 
 ```scss
-@import './node_modules/spfx-uifabric-themes/uif.theme';
+@import './node_modules/spfx-uifabric-themes/ouif.theme';
 ```
 
 This new SASS file will support more that 100 different themes slots such as backgroundColor, textColor.
@@ -28,7 +28,7 @@ The variables have been renamed to follow this pattern now:
 
 ```scss
 .container {
-  background-color: $uif-primaryBackground; // Adds "[theme:primaryBackground, default:#ffffff]";
+  background-color: $ouif-primaryBackground; // Adds "[theme:primaryBackground, default:#ffffff]";
 }
 ```
 
@@ -43,28 +43,6 @@ import {Theme} from 'spfx-uifabric-themes';
 After that you should see the following extensions on the window object.
 
 ![TypeScript themestate][TypeScript]
-
-
-
-# BETA - Enhanced theme slot selection
-
-You can use it the same way like before but the variable reference will change to.
-
-```scss
-@import './node_modules/spfx-uifabric-themes/uif.theme';
-```
-
-This new SASS file will support more that 100 different themes slots such as backgroundColor, textColor.
-
-The variables have been renamed to follow this pattern now:
-
-```scss
-.container {
-  background-color: $uif-primaryBackground; // Adds "[theme:primaryBackground, default:#ffffff]";
-}
-```
-
-
 
 # Use TypeDefinitions for `window.__themeState__` object
 
