@@ -38,3 +38,5 @@ Temporary Items
 node_modules
 ### NodeJS ###
 package-lock.json
+
+site/
