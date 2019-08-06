@@ -90,4 +90,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-[TypeScript]: https://raw.githubusercontent.com/StfBauer/spfx-uifabric-themes/master/assets/typedefiniton-themestate.png
+[TypeScript]: https://raw.githubusercontent.com/n8design/spfx-uifabric-themes/master/docs/assets/typedefiniton-themestate.png
