@@ -1,0 +1,1558 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.0.6">
+    
+    
+      
+        <title>SASS Variable reference - SPFx-uifabric-themes</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.451f80e5.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.22915126.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#00bcd4">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="cyan" data-md-color-accent="pink">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#sass-variables" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="SPFx-uifabric-themes" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                SPFx-uifabric-themes
+              </span>
+              <span class="md-header-nav__topic">
+                SASS Variable reference
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="SPFx-uifabric-themes" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    SPFx-uifabric-themes
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../release-notes/" title="Release notes" class="md-nav__link">
+      Release notes
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      SASS
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        SASS
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../how-to/" title="How To" class="md-nav__link">
+      How To
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../typography/" title="Typography" class="md-nav__link">
+      Typography
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../statestyles/" title="State Styles" class="md-nav__link">
+      State Styles
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        SASS Variable reference
+      </label>
+    
+    <a href="./" title="SASS Variable reference" class="md-nav__link md-nav__link--active">
+      SASS Variable reference
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#based-on-existing-themes-slots" title="Based on existing themes slots" class="md-nav__link">
+    Based on existing themes slots
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../css-variables/" title="CSS Variable" class="md-nav__link">
+      CSS Variable
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../typescript/" title="TypeScript" class="md-nav__link">
+      TypeScript
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../license/" title="License" class="md-nav__link">
+      License
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#based-on-existing-themes-slots" title="Based on existing themes slots" class="md-nav__link">
+    Based on existing themes slots
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="sass-variables">SASS Variables</h1>
+<table>
+<thead>
+<tr>
+<th>Theme Slot</th>
+<th>SASS Variable</th>
+<th>Color</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>accent</td>
+<td>$ouif-accent</td>
+<td><span style='border: 1px black solid; background-color: #8764b8; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#8764b8</td>
+</tr>
+<tr>
+<td>accentButtonBackground</td>
+<td>$ouif-accentButtonBackground</td>
+<td><span style='border: 1px black solid; background-color: #8764b8; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#8764b8</td>
+</tr>
+<tr>
+<td>accentButtonText</td>
+<td>$ouif-accentButtonText</td>
+<td><span style='border: 1px black solid; background-color: #ffffff; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#ffffff</td>
+</tr>
+<tr>
+<td>actionLink</td>
+<td>$ouif-actionLink</td>
+<td><span style='border: 1px black solid; background-color: #333333; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#333333</td>
+</tr>
+<tr>
+<td>actionLinkHovered</td>
+<td>$ouif-actionLinkHovered</td>
+<td><span style='border: 1px black solid; background-color: #212121; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#212121</td>
+</tr>
+<tr>
+<td>backgroundImageUri</td>
+<td>$ouif-backgroundImageUri</td>
+<td><span style='border: 1px black solid; background-color: none; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;none</td>
+</tr>
+<tr>
+<td>backgroundOverlay</td>
+<td>$ouif-backgroundOverlay</td>
+<td><span style='border: 1px black solid; background-color: ; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;</td>
+</tr>
+<tr>
+<td>black</td>
+<td>$ouif-black</td>
+<td><span style='border: 1px black solid; background-color: #000000; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#000000</td>
+</tr>
+<tr>
+<td>blackTranslucent40</td>
+<td>$ouif-blackTranslucent40</td>
+<td><span style='border: 1px black solid; background-color: rgba(0,0,0,.4); display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;rgba(0,0,0,.4)</td>
+</tr>
+<tr>
+<td>blockingBackground</td>
+<td>$ouif-blockingBackground</td>
+<td><span style='border: 1px black solid; background-color: rgba(234, 67, 0, .2); display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;rgba(234, 67, 0, .2)</td>
+</tr>
+<tr>
+<td>blue</td>
+<td>$ouif-blue</td>
+<td><span style='border: 1px black solid; background-color: #0078d4; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#0078d4</td>
+</tr>
+<tr>
+<td>blueDark</td>
+<td>$ouif-blueDark</td>
+<td><span style='border: 1px black solid; background-color: #002050; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#002050</td>
+</tr>
+<tr>
+<td>blueLight</td>
+<td>$ouif-blueLight</td>
+<td><span style='border: 1px black solid; background-color: #00bcf2; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#00bcf2</td>
+</tr>
+<tr>
+<td>blueMid</td>
+<td>$ouif-blueMid</td>
+<td><span style='border: 1px black solid; background-color: #00188f; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#00188f</td>
+</tr>
+<tr>
+<td>bodyBackground</td>
+<td>$ouif-bodyBackground</td>
+<td><span style='border: 1px black solid; background-color: #ffffff; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#ffffff</td>
+</tr>
+<tr>
+<td>bodyDivider</td>
+<td>$ouif-bodyDivider</td>
+<td><span style='border: 1px black solid; background-color: #eaeaea; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#eaeaea</td>
+</tr>
+<tr>
+<td>bodyFrameBackground</td>
+<td>$ouif-bodyFrameBackground</td>
+<td><span style='border: 1px black solid; background-color: #ffffff; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#ffffff</td>
+</tr>
+<tr>
+<td>bodyFrameDivider</td>
+<td>$ouif-bodyFrameDivider</td>
+<td><span style='border: 1px black solid; background-color: #eaeaea; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#eaeaea</td>
+</tr>
+<tr>
+<td>bodyStandoutBackground</td>
+<td>$ouif-bodyStandoutBackground</td>
+<td><span style='border: 1px black solid; background-color: #f8f8f8; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#f8f8f8</td>
+</tr>
+<tr>
+<td>bodySubtext</td>
+<td>$ouif-bodySubtext</td>
+<td><span style='border: 1px black solid; background-color: #666666; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#666666</td>
+</tr>
+<tr>
+<td>bodyText</td>
+<td>$ouif-bodyText</td>
+<td><span style='border: 1px black solid; background-color: #333333; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#333333</td>
+</tr>
+<tr>
+<td>bodyTextChecked</td>
+<td>$ouif-bodyTextChecked</td>
+<td><span style='border: 1px black solid; background-color: #000000; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#000000</td>
+</tr>
+<tr>
+<td>buttonBackground</td>
+<td>$ouif-buttonBackground</td>
+<td><span style='border: 1px black solid; background-color: #f4f4f4; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#f4f4f4</td>
+</tr>
+<tr>
+<td>buttonBackgroundChecked</td>
+<td>$ouif-buttonBackgroundChecked</td>
+<td><span style='border: 1px black solid; background-color: #c8c8c8; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#c8c8c8</td>
+</tr>
+<tr>
+<td>buttonBackgroundCheckedHovered</td>
+<td>$ouif-buttonBackgroundCheckedHovered</td>
+<td><span style='border: 1px black solid; background-color: #eaeaea; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#eaeaea</td>
+</tr>
+<tr>
+<td>buttonBackgroundDisabled</td>
+<td>$ouif-buttonBackgroundDisabled</td>
+<td><span style='border: 1px black solid; background-color: #f4f4f4; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#f4f4f4</td>
+</tr>
+<tr>
+<td>buttonBackgroundHovered</td>
+<td>$ouif-buttonBackgroundHovered</td>
+<td><span style='border: 1px black solid; background-color: #eaeaea; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#eaeaea</td>
+</tr>
+<tr>
+<td>buttonBackgroundPressed</td>
+<td>$ouif-buttonBackgroundPressed</td>
+<td><span style='border: 1px black solid; background-color: #eaeaea; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#eaeaea</td>
+</tr>
+<tr>
+<td>buttonBorder</td>
+<td>$ouif-buttonBorder</td>
+<td><span style='border: 1px black solid; background-color: transparent; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;transparent</td>
+</tr>
+<tr>
+<td>buttonBorderDisabled</td>
+<td>$ouif-buttonBorderDisabled</td>
+<td><span style='border: 1px black solid; background-color: transparent; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;transparent</td>
+</tr>
+<tr>
+<td>buttonText</td>
+<td>$ouif-buttonText</td>
+<td><span style='border: 1px black solid; background-color: #333333; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#333333</td>
+</tr>
+<tr>
+<td>buttonTextChecked</td>
+<td>$ouif-buttonTextChecked</td>
+<td><span style='border: 1px black solid; background-color: #212121; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#212121</td>
+</tr>
+<tr>
+<td>buttonTextCheckedHovered</td>
+<td>$ouif-buttonTextCheckedHovered</td>
+<td><span style='border: 1px black solid; background-color: #000000; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#000000</td>
+</tr>
+<tr>
+<td>buttonTextDisabled</td>
+<td>$ouif-buttonTextDisabled</td>
+<td><span style='border: 1px black solid; background-color: #a6a6a6; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#a6a6a6</td>
+</tr>
+<tr>
+<td>buttonTextHovered</td>
+<td>$ouif-buttonTextHovered</td>
+<td><span style='border: 1px black solid; background-color: #212121; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#212121</td>
+</tr>
+<tr>
+<td>buttonTextPressed</td>
+<td>$ouif-buttonTextPressed</td>
+<td><span style='border: 1px black solid; background-color: #212121; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#212121</td>
+</tr>
+<tr>
+<td>defaultStateBackground</td>
+<td>$ouif-defaultStateBackground</td>
+<td><span style='border: 1px black solid; background-color: #f8f8f8; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#f8f8f8</td>
+</tr>
+<tr>
+<td>dialogBorder</td>
+<td>$ouif-dialogBorder</td>
+<td><span style='border: 1px black solid; background-color: #f4f4f4; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#f4f4f4</td>
+</tr>
+<tr>
+<td>disabledBackground</td>
+<td>$ouif-disabledBackground</td>
+<td><span style='border: 1px black solid; background-color: #f4f4f4; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#f4f4f4</td>
+</tr>
+<tr>
+<td>disabledBodySubtext</td>
+<td>$ouif-disabledBodySubtext</td>
+<td><span style='border: 1px black solid; background-color: #c8c8c8; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#c8c8c8</td>
+</tr>
+<tr>
+<td>disabledBodyText</td>
+<td>$ouif-disabledBodyText</td>
+<td><span style='border: 1px black solid; background-color: #a6a6a6; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#a6a6a6</td>
+</tr>
+<tr>
+<td>disabledSubtext</td>
+<td>$ouif-disabledSubtext</td>
+<td><span style='border: 1px black solid; background-color: #d0d0d0; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#d0d0d0</td>
+</tr>
+<tr>
+<td>disabledText</td>
+<td>$ouif-disabledText</td>
+<td><span style='border: 1px black solid; background-color: #a6a6a6; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#a6a6a6</td>
+</tr>
+<tr>
+<td>elevation16</td>
+<td>$ouif-elevation16</td>
+<td><span style='border: 1px black solid; background-color: 0 0 5px 0 rgba(0,0,0,.4); display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;0 0 5px 0 rgba(0,0,0,.4)</td>
+</tr>
+<tr>
+<td>elevation4</td>
+<td>$ouif-elevation4</td>
+<td><span style='border: 1px black solid; background-color: 0 0 5px 0 rgba(0,0,0,.4); display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;0 0 5px 0 rgba(0,0,0,.4)</td>
+</tr>
+<tr>
+<td>elevation64</td>
+<td>$ouif-elevation64</td>
+<td><span style='border: 1px black solid; background-color: 0 0 5px 0 rgba(0,0,0,.4); display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;0 0 5px 0 rgba(0,0,0,.4)</td>
+</tr>
+<tr>
+<td>elevation8</td>
+<td>$ouif-elevation8</td>
+<td><span style='border: 1px black solid; background-color: 0 0 5px 0 rgba(0,0,0,.4); display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;0 0 5px 0 rgba(0,0,0,.4)</td>
+</tr>
+<tr>
+<td>errorBackground</td>
+<td>$ouif-errorBackground</td>
+<td><span style='border: 1px black solid; background-color: rgba(232, 17, 35, .2); display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;rgba(232, 17, 35, .2)</td>
+</tr>
+<tr>
+<td>errorText</td>
+<td>$ouif-errorText</td>
+<td><span style='border: 1px black solid; background-color: #a80000; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#a80000</td>
+</tr>
+<tr>
+<td>focusBorder</td>
+<td>$ouif-focusBorder</td>
+<td><span style='border: 1px black solid; background-color: #666666; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#666666</td>
+</tr>
+<tr>
+<td>green</td>
+<td>$ouif-green</td>
+<td><span style='border: 1px black solid; background-color: #107c10; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#107c10</td>
+</tr>
+<tr>
+<td>greenDark</td>
+<td>$ouif-greenDark</td>
+<td><span style='border: 1px black solid; background-color: #004b1c; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#004b1c</td>
+</tr>
+<tr>
+<td>greenLight</td>
+<td>$ouif-greenLight</td>
+<td><span style='border: 1px black solid; background-color: #bad80a; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#bad80a</td>
+</tr>
+<tr>
+<td>inputBackground</td>
+<td>$ouif-inputBackground</td>
+<td><span style='border: 1px black solid; background-color: #ffffff; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#ffffff</td>
+</tr>
+<tr>
+<td>inputBackgroundChecked</td>
+<td>$ouif-inputBackgroundChecked</td>
+<td><span style='border: 1px black solid; background-color: #0078d4; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#0078d4</td>
+</tr>
+<tr>
+<td>inputBackgroundCheckedHovered</td>
+<td>$ouif-inputBackgroundCheckedHovered</td>
+<td><span style='border: 1px black solid; background-color: #106ebe; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#106ebe</td>
+</tr>
+<tr>
+<td>inputBorder</td>
+<td>$ouif-inputBorder</td>
+<td><span style='border: 1px black solid; background-color: #a6a6a6; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#a6a6a6</td>
+</tr>
+<tr>
+<td>inputBorderHovered</td>
+<td>$ouif-inputBorderHovered</td>
+<td><span style='border: 1px black solid; background-color: #333333; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#333333</td>
+</tr>
+<tr>
+<td>inputFocusBorderAlt</td>
+<td>$ouif-inputFocusBorderAlt</td>
+<td><span style='border: 1px black solid; background-color: #0078d4; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#0078d4</td>
+</tr>
+<tr>
+<td>inputForegroundChecked</td>
+<td>$ouif-inputForegroundChecked</td>
+<td><span style='border: 1px black solid; background-color: #ffffff; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#ffffff</td>
+</tr>
+<tr>
+<td>inputPlaceholderText</td>
+<td>$ouif-inputPlaceholderText</td>
+<td><span style='border: 1px black solid; background-color: #666666; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#666666</td>
+</tr>
+<tr>
+<td>inputText</td>
+<td>$ouif-inputText</td>
+<td><span style='border: 1px black solid; background-color: #333333; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#333333</td>
+</tr>
+<tr>
+<td>inputTextHovered</td>
+<td>$ouif-inputTextHovered</td>
+<td><span style='border: 1px black solid; background-color: #212121; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#212121</td>
+</tr>
+<tr>
+<td>link</td>
+<td>$ouif-link</td>
+<td><span style='border: 1px black solid; background-color: #0078d4; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#0078d4</td>
+</tr>
+<tr>
+<td>linkHovered</td>
+<td>$ouif-linkHovered</td>
+<td><span style='border: 1px black solid; background-color: #004578; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#004578</td>
+</tr>
+<tr>
+<td>listBackground</td>
+<td>$ouif-listBackground</td>
+<td><span style='border: 1px black solid; background-color: #ffffff; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#ffffff</td>
+</tr>
+<tr>
+<td>listHeaderBackgroundHovered</td>
+<td>$ouif-listHeaderBackgroundHovered</td>
+<td><span style='border: 1px black solid; background-color: #f4f4f4; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#f4f4f4</td>
+</tr>
+<tr>
+<td>listHeaderBackgroundPressed</td>
+<td>$ouif-listHeaderBackgroundPressed</td>
+<td><span style='border: 1px black solid; background-color: #eaeaea; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#eaeaea</td>
+</tr>
+<tr>
+<td>listItemBackgroundChecked</td>
+<td>$ouif-listItemBackgroundChecked</td>
+<td><span style='border: 1px black solid; background-color: #eaeaea; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#eaeaea</td>
+</tr>
+<tr>
+<td>listItemBackgroundCheckedHovered</td>
+<td>$ouif-listItemBackgroundCheckedHovered</td>
+<td><span style='border: 1px black solid; background-color: #dadada; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#dadada</td>
+</tr>
+<tr>
+<td>listItemBackgroundHovered</td>
+<td>$ouif-listItemBackgroundHovered</td>
+<td><span style='border: 1px black solid; background-color: #f4f4f4; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#f4f4f4</td>
+</tr>
+<tr>
+<td>listText</td>
+<td>$ouif-listText</td>
+<td><span style='border: 1px black solid; background-color: #333333; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#333333</td>
+</tr>
+<tr>
+<td>listTextColor</td>
+<td>$ouif-listTextColor</td>
+<td><span style='border: 1px black solid; background-color: #333333; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#333333</td>
+</tr>
+<tr>
+<td>magenta</td>
+<td>$ouif-magenta</td>
+<td><span style='border: 1px black solid; background-color: #b4009e; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#b4009e</td>
+</tr>
+<tr>
+<td>magentaDark</td>
+<td>$ouif-magentaDark</td>
+<td><span style='border: 1px black solid; background-color: #5c005c; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#5c005c</td>
+</tr>
+<tr>
+<td>magentaLight</td>
+<td>$ouif-magentaLight</td>
+<td><span style='border: 1px black solid; background-color: #e3008c; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#e3008c</td>
+</tr>
+<tr>
+<td>menuBackground</td>
+<td>$ouif-menuBackground</td>
+<td><span style='border: 1px black solid; background-color: #ffffff; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#ffffff</td>
+</tr>
+<tr>
+<td>menuDivider</td>
+<td>$ouif-menuDivider</td>
+<td><span style='border: 1px black solid; background-color: #c8c8c8; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#c8c8c8</td>
+</tr>
+<tr>
+<td>menuHeader</td>
+<td>$ouif-menuHeader</td>
+<td><span style='border: 1px black solid; background-color: #0078d4; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#0078d4</td>
+</tr>
+<tr>
+<td>menuIcon</td>
+<td>$ouif-menuIcon</td>
+<td><span style='border: 1px black solid; background-color: #0078d4; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#0078d4</td>
+</tr>
+<tr>
+<td>menuItemBackgroundChecked</td>
+<td>$ouif-menuItemBackgroundChecked</td>
+<td><span style='border: 1px black solid; background-color: #eaeaea; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#eaeaea</td>
+</tr>
+<tr>
+<td>menuItemBackgroundHovered</td>
+<td>$ouif-menuItemBackgroundHovered</td>
+<td><span style='border: 1px black solid; background-color: #f4f4f4; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#f4f4f4</td>
+</tr>
+<tr>
+<td>menuItemBackgroundPressed</td>
+<td>$ouif-menuItemBackgroundPressed</td>
+<td><span style='border: 1px black solid; background-color: #eaeaea; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#eaeaea</td>
+</tr>
+<tr>
+<td>menuItemText</td>
+<td>$ouif-menuItemText</td>
+<td><span style='border: 1px black solid; background-color: #333333; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#333333</td>
+</tr>
+<tr>
+<td>menuItemTextHovered</td>
+<td>$ouif-menuItemTextHovered</td>
+<td><span style='border: 1px black solid; background-color: #212121; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#212121</td>
+</tr>
+<tr>
+<td>neutralDark</td>
+<td>$ouif-neutralDark</td>
+<td><span style='border: 1px black solid; background-color: #212121; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#212121</td>
+</tr>
+<tr>
+<td>neutralLight</td>
+<td>$ouif-neutralLight</td>
+<td><span style='border: 1px black solid; background-color: #eaeaea; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#eaeaea</td>
+</tr>
+<tr>
+<td>neutralLighter</td>
+<td>$ouif-neutralLighter</td>
+<td><span style='border: 1px black solid; background-color: #f4f4f4; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#f4f4f4</td>
+</tr>
+<tr>
+<td>neutralLighterAlt</td>
+<td>$ouif-neutralLighterAlt</td>
+<td><span style='border: 1px black solid; background-color: #f8f8f8; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#f8f8f8</td>
+</tr>
+<tr>
+<td>neutralPrimary</td>
+<td>$ouif-neutralPrimary</td>
+<td><span style='border: 1px black solid; background-color: #333333; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#333333</td>
+</tr>
+<tr>
+<td>neutralPrimaryAlt</td>
+<td>$ouif-neutralPrimaryAlt</td>
+<td><span style='border: 1px black solid; background-color: #3c3c3c; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#3c3c3c</td>
+</tr>
+<tr>
+<td>neutralQuaternary</td>
+<td>$ouif-neutralQuaternary</td>
+<td><span style='border: 1px black solid; background-color: #d0d0d0; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#d0d0d0</td>
+</tr>
+<tr>
+<td>neutralQuaternaryAlt</td>
+<td>$ouif-neutralQuaternaryAlt</td>
+<td><span style='border: 1px black solid; background-color: #dadada; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#dadada</td>
+</tr>
+<tr>
+<td>neutralSecondary</td>
+<td>$ouif-neutralSecondary</td>
+<td><span style='border: 1px black solid; background-color: #666666; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#666666</td>
+</tr>
+<tr>
+<td>neutralSecondaryAlt</td>
+<td>$ouif-neutralSecondaryAlt</td>
+<td><span style='border: 1px black solid; background-color: #767676; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#767676</td>
+</tr>
+<tr>
+<td>neutralTertiary</td>
+<td>$ouif-neutralTertiary</td>
+<td><span style='border: 1px black solid; background-color: #a6a6a6; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#a6a6a6</td>
+</tr>
+<tr>
+<td>neutralTertiaryAlt</td>
+<td>$ouif-neutralTertiaryAlt</td>
+<td><span style='border: 1px black solid; background-color: #c8c8c8; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#c8c8c8</td>
+</tr>
+<tr>
+<td>orange</td>
+<td>$ouif-orange</td>
+<td><span style='border: 1px black solid; background-color: #d83b01; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#d83b01</td>
+</tr>
+<tr>
+<td>orangeLight</td>
+<td>$ouif-orangeLight</td>
+<td><span style='border: 1px black solid; background-color: #ea4300; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#ea4300</td>
+</tr>
+<tr>
+<td>orangeLighter</td>
+<td>$ouif-orangeLighter</td>
+<td><span style='border: 1px black solid; background-color: #ff8c00; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#ff8c00</td>
+</tr>
+<tr>
+<td>primaryBackground</td>
+<td>$ouif-primaryBackground</td>
+<td><span style='border: 1px black solid; background-color: #ffffff; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#ffffff</td>
+</tr>
+<tr>
+<td>primaryButtonBackground</td>
+<td>$ouif-primaryButtonBackground</td>
+<td><span style='border: 1px black solid; background-color: #0078d4; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#0078d4</td>
+</tr>
+<tr>
+<td>primaryButtonBackgroundDisabled</td>
+<td>$ouif-primaryButtonBackgroundDisabled</td>
+<td><span style='border: 1px black solid; background-color: #f4f4f4; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#f4f4f4</td>
+</tr>
+<tr>
+<td>primaryButtonBackgroundHovered</td>
+<td>$ouif-primaryButtonBackgroundHovered</td>
+<td><span style='border: 1px black solid; background-color: #106ebe; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#106ebe</td>
+</tr>
+<tr>
+<td>primaryButtonBackgroundPressed</td>
+<td>$ouif-primaryButtonBackgroundPressed</td>
+<td><span style='border: 1px black solid; background-color: #005a9e; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#005a9e</td>
+</tr>
+<tr>
+<td>primaryButtonBorder</td>
+<td>$ouif-primaryButtonBorder</td>
+<td><span style='border: 1px black solid; background-color: transparent; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;transparent</td>
+</tr>
+<tr>
+<td>primaryButtonText</td>
+<td>$ouif-primaryButtonText</td>
+<td><span style='border: 1px black solid; background-color: #ffffff; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#ffffff</td>
+</tr>
+<tr>
+<td>primaryButtonTextDisabled</td>
+<td>$ouif-primaryButtonTextDisabled</td>
+<td><span style='border: 1px black solid; background-color: #d0d0d0; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#d0d0d0</td>
+</tr>
+<tr>
+<td>primaryButtonTextHovered</td>
+<td>$ouif-primaryButtonTextHovered</td>
+<td><span style='border: 1px black solid; background-color: #ffffff; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#ffffff</td>
+</tr>
+<tr>
+<td>primaryButtonTextPressed</td>
+<td>$ouif-primaryButtonTextPressed</td>
+<td><span style='border: 1px black solid; background-color: #ffffff; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#ffffff</td>
+</tr>
+<tr>
+<td>primaryText</td>
+<td>$ouif-primaryText</td>
+<td><span style='border: 1px black solid; background-color: #333333; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#333333</td>
+</tr>
+<tr>
+<td>purple</td>
+<td>$ouif-purple</td>
+<td><span style='border: 1px black solid; background-color: #5c2d91; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#5c2d91</td>
+</tr>
+<tr>
+<td>purpleDark</td>
+<td>$ouif-purpleDark</td>
+<td><span style='border: 1px black solid; background-color: #32145a; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#32145a</td>
+</tr>
+<tr>
+<td>purpleLight</td>
+<td>$ouif-purpleLight</td>
+<td><span style='border: 1px black solid; background-color: #b4a0ff; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#b4a0ff</td>
+</tr>
+<tr>
+<td>red</td>
+<td>$ouif-red</td>
+<td><span style='border: 1px black solid; background-color: #e81123; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#e81123</td>
+</tr>
+<tr>
+<td>redDark</td>
+<td>$ouif-redDark</td>
+<td><span style='border: 1px black solid; background-color: #a80000; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#a80000</td>
+</tr>
+<tr>
+<td>roundedCorner2</td>
+<td>$ouif-roundedCorner2</td>
+<td><span style='border: 1px black solid; background-color: 0px; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;0px</td>
+</tr>
+<tr>
+<td>smallInputBorder</td>
+<td>$ouif-smallInputBorder</td>
+<td><span style='border: 1px black solid; background-color: #666666; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#666666</td>
+</tr>
+<tr>
+<td>successBackground</td>
+<td>$ouif-successBackground</td>
+<td><span style='border: 1px black solid; background-color: rgba(186, 216, 10, .2); display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;rgba(186, 216, 10, .2)</td>
+</tr>
+<tr>
+<td>successText</td>
+<td>$ouif-successText</td>
+<td><span style='border: 1px black solid; background-color: #107C10; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#107C10</td>
+</tr>
+<tr>
+<td>suiteBarBackground</td>
+<td>$ouif-suiteBarBackground</td>
+<td><span style='border: 1px black solid; background-color: #0078d4; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#0078d4</td>
+</tr>
+<tr>
+<td>suiteBarDisabledText</td>
+<td>$ouif-suiteBarDisabledText</td>
+<td><span style='border: 1px black solid; background-color: #eaeaea; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#eaeaea</td>
+</tr>
+<tr>
+<td>suiteBarText</td>
+<td>$ouif-suiteBarText</td>
+<td><span style='border: 1px black solid; background-color: #ffffff; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#ffffff</td>
+</tr>
+<tr>
+<td>teal</td>
+<td>$ouif-teal</td>
+<td><span style='border: 1px black solid; background-color: #008272; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#008272</td>
+</tr>
+<tr>
+<td>tealDark</td>
+<td>$ouif-tealDark</td>
+<td><span style='border: 1px black solid; background-color: #004b50; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#004b50</td>
+</tr>
+<tr>
+<td>tealLight</td>
+<td>$ouif-tealLight</td>
+<td><span style='border: 1px black solid; background-color: #00b294; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#00b294</td>
+</tr>
+<tr>
+<td>themeDark</td>
+<td>$ouif-themeDark</td>
+<td><span style='border: 1px black solid; background-color: #005a9e; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#005a9e</td>
+</tr>
+<tr>
+<td>themeDarkAlt</td>
+<td>$ouif-themeDarkAlt</td>
+<td><span style='border: 1px black solid; background-color: #106ebe; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#106ebe</td>
+</tr>
+<tr>
+<td>themeDarker</td>
+<td>$ouif-themeDarker</td>
+<td><span style='border: 1px black solid; background-color: #004578; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#004578</td>
+</tr>
+<tr>
+<td>themeLight</td>
+<td>$ouif-themeLight</td>
+<td><span style='border: 1px black solid; background-color: #c7e0f4; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#c7e0f4</td>
+</tr>
+<tr>
+<td>themeLighter</td>
+<td>$ouif-themeLighter</td>
+<td><span style='border: 1px black solid; background-color: #deecf9; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#deecf9</td>
+</tr>
+<tr>
+<td>themeLighterAlt</td>
+<td>$ouif-themeLighterAlt</td>
+<td><span style='border: 1px black solid; background-color: #eff6fc; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#eff6fc</td>
+</tr>
+<tr>
+<td>themePrimary</td>
+<td>$ouif-themePrimary</td>
+<td><span style='border: 1px black solid; background-color: #0078d4; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#0078d4</td>
+</tr>
+<tr>
+<td>themeSecondary</td>
+<td>$ouif-themeSecondary</td>
+<td><span style='border: 1px black solid; background-color: #2b88d8; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#2b88d8</td>
+</tr>
+<tr>
+<td>themeTertiary</td>
+<td>$ouif-themeTertiary</td>
+<td><span style='border: 1px black solid; background-color: #71afe5; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#71afe5</td>
+</tr>
+<tr>
+<td>topBarBackground</td>
+<td>$ouif-topBarBackground</td>
+<td><span style='border: 1px black solid; background-color: #eaeaea; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#eaeaea</td>
+</tr>
+<tr>
+<td>topBarHoverText</td>
+<td>$ouif-topBarHoverText</td>
+<td><span style='border: 1px black solid; background-color: #333333; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#333333</td>
+</tr>
+<tr>
+<td>topBarText</td>
+<td>$ouif-topBarText</td>
+<td><span style='border: 1px black solid; background-color: #666666; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#666666</td>
+</tr>
+<tr>
+<td>variantBorder</td>
+<td>$ouif-variantBorder</td>
+<td><span style='border: 1px black solid; background-color: #eaeaea; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#eaeaea</td>
+</tr>
+<tr>
+<td>variantBorderHovered</td>
+<td>$ouif-variantBorderHovered</td>
+<td><span style='border: 1px black solid; background-color: #a6a6a6; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#a6a6a6</td>
+</tr>
+<tr>
+<td>warningBackground</td>
+<td>$ouif-warningBackground</td>
+<td><span style='border: 1px black solid; background-color: rgba(255, 185, 0, .2); display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;rgba(255, 185, 0, .2)</td>
+</tr>
+<tr>
+<td>warningHighlight</td>
+<td>$ouif-warningHighlight</td>
+<td><span style='border: 1px black solid; background-color: #ffb900; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#ffb900</td>
+</tr>
+<tr>
+<td>warningText</td>
+<td>$ouif-warningText</td>
+<td><span style='border: 1px black solid; background-color: #333333; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#333333</td>
+</tr>
+<tr>
+<td>white</td>
+<td>$ouif-white</td>
+<td><span style='border: 1px black solid; background-color: #ffffff; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#ffffff</td>
+</tr>
+<tr>
+<td>whiteTranslucent40</td>
+<td>$ouif-whiteTranslucent40</td>
+<td><span style='border: 1px black solid; background-color: rgba(255,255,255,.4); display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;rgba(255,255,255,.4)</td>
+</tr>
+<tr>
+<td>yellow</td>
+<td>$ouif-yellow</td>
+<td><span style='border: 1px black solid; background-color: #ffb900; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#ffb900</td>
+</tr>
+<tr>
+<td>yellowDark</td>
+<td>$ouif-yellowDark</td>
+<td><span style='border: 1px black solid; background-color: #d29200; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#d29200</td>
+</tr>
+<tr>
+<td>yellowLight</td>
+<td>$ouif-yellowLight</td>
+<td><span style='border: 1px black solid; background-color: #fff100; display: inline-block; width: 2em; margin-right: 1em;'>&nbsp;&nbsp;</span>&nbsp;#fff100</td>
+</tr>
+</tbody>
+</table>
+<h2 id="based-on-existing-themes-slots">Based on existing themes slots</h2>
+<table>
+<thead>
+<tr>
+<th>Theme Slot</th>
+<th>SASS Variable</th>
+<th>Color</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ms-font-large-MozOsxFontSmoothing</td>
+<td>$ouif-font-large-MozOsxFontSmoothing</td>
+<td>"[theme:ms-font-large-MozOsxFontSmoothing, default: grayscale]"</td>
+</tr>
+<tr>
+<td>ms-font-large-WebkitFontSmoothing</td>
+<td>$ouif-font-large-WebkitFontSmoothing</td>
+<td>"[theme:ms-font-large-WebkitFontSmoothing, default: antialiased]"</td>
+</tr>
+<tr>
+<td>ms-font-large-fontFamily</td>
+<td>$ouif-font-large-fontFamily</td>
+<td>"[theme:ms-font-large-fontFamily, default: 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif]"</td>
+</tr>
+<tr>
+<td>ms-font-large-fontSize</td>
+<td>$ouif-font-large-fontSize</td>
+<td>"[theme:ms-font-large-fontSize, default: 17px]"</td>
+</tr>
+<tr>
+<td>ms-font-large-fontWeight</td>
+<td>$ouif-font-large-fontWeight</td>
+<td>"[theme:ms-font-large-fontWeight, default: 300]"</td>
+</tr>
+<tr>
+<td>ms-font-medium-MozOsxFontSmoothing</td>
+<td>$ouif-font-medium-MozOsxFontSmoothing</td>
+<td>"[theme:ms-font-medium-MozOsxFontSmoothing, default: grayscale]"</td>
+</tr>
+<tr>
+<td>ms-font-medium-WebkitFontSmoothing</td>
+<td>$ouif-font-medium-WebkitFontSmoothing</td>
+<td>"[theme:ms-font-medium-WebkitFontSmoothing, default: antialiased]"</td>
+</tr>
+<tr>
+<td>ms-font-medium-fontFamily</td>
+<td>$ouif-font-medium-fontFamily</td>
+<td>"[theme:ms-font-medium-fontFamily, default: 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif]"</td>
+</tr>
+<tr>
+<td>ms-font-medium-fontSize</td>
+<td>$ouif-font-medium-fontSize</td>
+<td>"[theme:ms-font-medium-fontSize, default: 14px]"</td>
+</tr>
+<tr>
+<td>ms-font-medium-fontWeight</td>
+<td>$ouif-font-medium-fontWeight</td>
+<td>"[theme:ms-font-medium-fontWeight, default: 400]"</td>
+</tr>
+<tr>
+<td>ms-font-mediumPlus-MozOsxFontSmoothing</td>
+<td>$ouif-font-mediumPlus-MozOsxFontSmoothing</td>
+<td>"[theme:ms-font-mediumPlus-MozOsxFontSmoothing, default: grayscale]"</td>
+</tr>
+<tr>
+<td>ms-font-mediumPlus-WebkitFontSmoothing</td>
+<td>$ouif-font-mediumPlus-WebkitFontSmoothing</td>
+<td>"[theme:ms-font-mediumPlus-WebkitFontSmoothing, default: antialiased]"</td>
+</tr>
+<tr>
+<td>ms-font-mediumPlus-fontFamily</td>
+<td>$ouif-font-mediumPlus-fontFamily</td>
+<td>"[theme:ms-font-mediumPlus-fontFamily, default: 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif]"</td>
+</tr>
+<tr>
+<td>ms-font-mediumPlus-fontSize</td>
+<td>$ouif-font-mediumPlus-fontSize</td>
+<td>"[theme:ms-font-mediumPlus-fontSize, default: 15px]"</td>
+</tr>
+<tr>
+<td>ms-font-mediumPlus-fontWeight</td>
+<td>$ouif-font-mediumPlus-fontWeight</td>
+<td>"[theme:ms-font-mediumPlus-fontWeight, default: 400]"</td>
+</tr>
+<tr>
+<td>ms-font-mega-MozOsxFontSmoothing</td>
+<td>$ouif-font-mega-MozOsxFontSmoothing</td>
+<td>"[theme:ms-font-mega-MozOsxFontSmoothing, default: grayscale]"</td>
+</tr>
+<tr>
+<td>ms-font-mega-WebkitFontSmoothing</td>
+<td>$ouif-font-mega-WebkitFontSmoothing</td>
+<td>"[theme:ms-font-mega-WebkitFontSmoothing, default: antialiased]"</td>
+</tr>
+<tr>
+<td>ms-font-mega-fontFamily</td>
+<td>$ouif-font-mega-fontFamily</td>
+<td>"[theme:ms-font-mega-fontFamily, default: 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif]"</td>
+</tr>
+<tr>
+<td>ms-font-mega-fontSize</td>
+<td>$ouif-font-mega-fontSize</td>
+<td>"[theme:ms-font-mega-fontSize, default: 72px]"</td>
+</tr>
+<tr>
+<td>ms-font-mega-fontWeight</td>
+<td>$ouif-font-mega-fontWeight</td>
+<td>"[theme:ms-font-mega-fontWeight, default: 100]"</td>
+</tr>
+<tr>
+<td>ms-font-small-MozOsxFontSmoothing</td>
+<td>$ouif-font-small-MozOsxFontSmoothing</td>
+<td>"[theme:ms-font-small-MozOsxFontSmoothing, default: grayscale]"</td>
+</tr>
+<tr>
+<td>ms-font-small-WebkitFontSmoothing</td>
+<td>$ouif-font-small-WebkitFontSmoothing</td>
+<td>"[theme:ms-font-small-WebkitFontSmoothing, default: antialiased]"</td>
+</tr>
+<tr>
+<td>ms-font-small-fontFamily</td>
+<td>$ouif-font-small-fontFamily</td>
+<td>"[theme:ms-font-small-fontFamily, default: 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif]"</td>
+</tr>
+<tr>
+<td>ms-font-small-fontSize</td>
+<td>$ouif-font-small-fontSize</td>
+<td>"[theme:ms-font-small-fontSize, default: 12px]"</td>
+</tr>
+<tr>
+<td>ms-font-small-fontWeight</td>
+<td>$ouif-font-small-fontWeight</td>
+<td>"[theme:ms-font-small-fontWeight, default: 400]"</td>
+</tr>
+<tr>
+<td>ms-font-smallPlus-MozOsxFontSmoothing</td>
+<td>$ouif-font-smallPlus-MozOsxFontSmoothing</td>
+<td>"[theme:ms-font-smallPlus-MozOsxFontSmoothing, default: grayscale]"</td>
+</tr>
+<tr>
+<td>ms-font-smallPlus-WebkitFontSmoothing</td>
+<td>$ouif-font-smallPlus-WebkitFontSmoothing</td>
+<td>"[theme:ms-font-smallPlus-WebkitFontSmoothing, default: antialiased]"</td>
+</tr>
+<tr>
+<td>ms-font-smallPlus-fontFamily</td>
+<td>$ouif-font-smallPlus-fontFamily</td>
+<td>"[theme:ms-font-smallPlus-fontFamily, default: 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif]"</td>
+</tr>
+<tr>
+<td>ms-font-smallPlus-fontSize</td>
+<td>$ouif-font-smallPlus-fontSize</td>
+<td>"[theme:ms-font-smallPlus-fontSize, default: 13px]"</td>
+</tr>
+<tr>
+<td>ms-font-smallPlus-fontWeight</td>
+<td>$ouif-font-smallPlus-fontWeight</td>
+<td>"[theme:ms-font-smallPlus-fontWeight, default: 400]"</td>
+</tr>
+<tr>
+<td>ms-font-superLarge-MozOsxFontSmoothing</td>
+<td>$ouif-font-superLarge-MozOsxFontSmoothing</td>
+<td>"[theme:ms-font-superLarge-MozOsxFontSmoothing, default: grayscale]"</td>
+</tr>
+<tr>
+<td>ms-font-superLarge-WebkitFontSmoothing</td>
+<td>$ouif-font-superLarge-WebkitFontSmoothing</td>
+<td>"[theme:ms-font-superLarge-WebkitFontSmoothing, default: antialiased]"</td>
+</tr>
+<tr>
+<td>ms-font-superLarge-fontFamily</td>
+<td>$ouif-font-superLarge-fontFamily</td>
+<td>"[theme:ms-font-superLarge-fontFamily, default: 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif]"</td>
+</tr>
+<tr>
+<td>ms-font-superLarge-fontSize</td>
+<td>$ouif-font-superLarge-fontSize</td>
+<td>"[theme:ms-font-superLarge-fontSize, default: 42px]"</td>
+</tr>
+<tr>
+<td>ms-font-superLarge-fontWeight</td>
+<td>$ouif-font-superLarge-fontWeight</td>
+<td>"[theme:ms-font-superLarge-fontWeight, default: 100]"</td>
+</tr>
+<tr>
+<td>ms-font-tiny-MozOsxFontSmoothing</td>
+<td>$ouif-font-tiny-MozOsxFontSmoothing</td>
+<td>"[theme:ms-font-tiny-MozOsxFontSmoothing, default: grayscale]"</td>
+</tr>
+<tr>
+<td>ms-font-tiny-WebkitFontSmoothing</td>
+<td>$ouif-font-tiny-WebkitFontSmoothing</td>
+<td>"[theme:ms-font-tiny-WebkitFontSmoothing, default: antialiased]"</td>
+</tr>
+<tr>
+<td>ms-font-tiny-fontFamily</td>
+<td>$ouif-font-tiny-fontFamily</td>
+<td>"[theme:ms-font-tiny-fontFamily, default: 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif]"</td>
+</tr>
+<tr>
+<td>ms-font-tiny-fontSize</td>
+<td>$ouif-font-tiny-fontSize</td>
+<td>"[theme:ms-font-tiny-fontSize, default: 10px]"</td>
+</tr>
+<tr>
+<td>ms-font-tiny-fontWeight</td>
+<td>$ouif-font-tiny-fontWeight</td>
+<td>"[theme:ms-font-tiny-fontWeight, default: 600]"</td>
+</tr>
+<tr>
+<td>ms-font-xLarge-MozOsxFontSmoothing</td>
+<td>$ouif-font-xLarge-MozOsxFontSmoothing</td>
+<td>"[theme:ms-font-xLarge-MozOsxFontSmoothing, default: grayscale]"</td>
+</tr>
+<tr>
+<td>ms-font-xLarge-WebkitFontSmoothing</td>
+<td>$ouif-font-xLarge-WebkitFontSmoothing</td>
+<td>"[theme:ms-font-xLarge-WebkitFontSmoothing, default: antialiased]"</td>
+</tr>
+<tr>
+<td>ms-font-xLarge-fontFamily</td>
+<td>$ouif-font-xLarge-fontFamily</td>
+<td>"[theme:ms-font-xLarge-fontFamily, default: 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif]"</td>
+</tr>
+<tr>
+<td>ms-font-xLarge-fontSize</td>
+<td>$ouif-font-xLarge-fontSize</td>
+<td>"[theme:ms-font-xLarge-fontSize, default: 21px]"</td>
+</tr>
+<tr>
+<td>ms-font-xLarge-fontWeight</td>
+<td>$ouif-font-xLarge-fontWeight</td>
+<td>"[theme:ms-font-xLarge-fontWeight, default: 100]"</td>
+</tr>
+<tr>
+<td>ms-font-xLargePlus-MozOsxFontSmoothing</td>
+<td>$ouif-font-xLargePlus-MozOsxFontSmoothing</td>
+<td>"[theme:ms-font-xLargePlus-MozOsxFontSmoothing, default: grayscale]"</td>
+</tr>
+<tr>
+<td>ms-font-xLargePlus-WebkitFontSmoothing</td>
+<td>$ouif-font-xLargePlus-WebkitFontSmoothing</td>
+<td>"[theme:ms-font-xLargePlus-WebkitFontSmoothing, default: antialiased]"</td>
+</tr>
+<tr>
+<td>ms-font-xLargePlus-fontFamily</td>
+<td>$ouif-font-xLargePlus-fontFamily</td>
+<td>"[theme:ms-font-xLargePlus-fontFamily, default: 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif]"</td>
+</tr>
+<tr>
+<td>ms-font-xLargePlus-fontSize</td>
+<td>$ouif-font-xLargePlus-fontSize</td>
+<td>"[theme:ms-font-xLargePlus-fontSize, default: 21px]"</td>
+</tr>
+<tr>
+<td>ms-font-xLargePlus-fontWeight</td>
+<td>$ouif-font-xLargePlus-fontWeight</td>
+<td>"[theme:ms-font-xLargePlus-fontWeight, default: 100]"</td>
+</tr>
+<tr>
+<td>ms-font-xSmall-MozOsxFontSmoothing</td>
+<td>$ouif-font-xSmall-MozOsxFontSmoothing</td>
+<td>"[theme:ms-font-xSmall-MozOsxFontSmoothing, default: grayscale]"</td>
+</tr>
+<tr>
+<td>ms-font-xSmall-WebkitFontSmoothing</td>
+<td>$ouif-font-xSmall-WebkitFontSmoothing</td>
+<td>"[theme:ms-font-xSmall-WebkitFontSmoothing, default: antialiased]"</td>
+</tr>
+<tr>
+<td>ms-font-xSmall-fontFamily</td>
+<td>$ouif-font-xSmall-fontFamily</td>
+<td>"[theme:ms-font-xSmall-fontFamily, default: 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif]"</td>
+</tr>
+<tr>
+<td>ms-font-xSmall-fontSize</td>
+<td>$ouif-font-xSmall-fontSize</td>
+<td>"[theme:ms-font-xSmall-fontSize, default: 11px]"</td>
+</tr>
+<tr>
+<td>ms-font-xSmall-fontWeight</td>
+<td>$ouif-font-xSmall-fontWeight</td>
+<td>"[theme:ms-font-xSmall-fontWeight, default: 400]"</td>
+</tr>
+<tr>
+<td>ms-font-xxLarge-MozOsxFontSmoothing</td>
+<td>$ouif-font-xxLarge-MozOsxFontSmoothing</td>
+<td>"[theme:ms-font-xxLarge-MozOsxFontSmoothing, default: grayscale]"</td>
+</tr>
+<tr>
+<td>ms-font-xxLarge-WebkitFontSmoothing</td>
+<td>$ouif-font-xxLarge-WebkitFontSmoothing</td>
+<td>"[theme:ms-font-xxLarge-WebkitFontSmoothing, default: antialiased]"</td>
+</tr>
+<tr>
+<td>ms-font-xxLarge-fontFamily</td>
+<td>$ouif-font-xxLarge-fontFamily</td>
+<td>"[theme:ms-font-xxLarge-fontFamily, default: 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif]"</td>
+</tr>
+<tr>
+<td>ms-font-xxLarge-fontSize</td>
+<td>$ouif-font-xxLarge-fontSize</td>
+<td>"[theme:ms-font-xxLarge-fontSize, default: 28px]"</td>
+</tr>
+<tr>
+<td>ms-font-xxLarge-fontWeight</td>
+<td>$ouif-font-xxLarge-fontWeight</td>
+<td>"[theme:ms-font-xxLarge-fontWeight, default: 100]"</td>
+</tr>
+<tr>
+<td>ms-font-xxLargePlus-MozOsxFontSmoothing</td>
+<td>$ouif-font-xxLargePlus-MozOsxFontSmoothing</td>
+<td>"[theme:ms-font-xxLargePlus-MozOsxFontSmoothing, default: grayscale]"</td>
+</tr>
+<tr>
+<td>ms-font-xxLargePlus-WebkitFontSmoothing</td>
+<td>$ouif-font-xxLargePlus-WebkitFontSmoothing</td>
+<td>"[theme:ms-font-xxLargePlus-WebkitFontSmoothing, default: antialiased]"</td>
+</tr>
+<tr>
+<td>ms-font-xxLargePlus-fontFamily</td>
+<td>$ouif-font-xxLargePlus-fontFamily</td>
+<td>"[theme:ms-font-xxLargePlus-fontFamily, default: 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif]"</td>
+</tr>
+<tr>
+<td>ms-font-xxLargePlus-fontSize</td>
+<td>$ouif-font-xxLargePlus-fontSize</td>
+<td>"[theme:ms-font-xxLargePlus-fontSize, default: 28px]"</td>
+</tr>
+<tr>
+<td>ms-font-xxLargePlus-fontWeight</td>
+<td>$ouif-font-xxLargePlus-fontWeight</td>
+<td>"[theme:ms-font-xxLargePlus-fontWeight, default: 100]"</td>
+</tr>
+</tbody>
+</table>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../statestyles/" title="State Styles" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                State Styles
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../../css-variables/" title="CSS Variable" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                CSS Variable
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.5e60981f.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>
