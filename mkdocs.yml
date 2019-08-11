@@ -21,3 +21,6 @@ markdown_extensions:
 google_analytics:
   - 'UA-15086819-7'
   - 'auto'
+site_url: https://n8design.github.io/spfx-uifabric-themes/
+repo_url: https://github.com/n8design/spfx-uifabric-themes
+edit_uri: blob/master/docs/
