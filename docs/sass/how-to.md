@@ -81,7 +81,7 @@ This will automatically add the theme slot for the background color.
 ## Further reading
 For SASS this toolkit support multiple ways to help with development of themed web parts.
 
-- [SASS Variables Reference](uif.theme.md)
+- [SASS Variables Reference](ouif.theme.md)
 - [State Styles](statestyles.md) - Provide mixin that allow you to apply style for custom notification indicators
 
 !!! info

@@ -46,14 +46,14 @@ After that you should see the following extensions on the window object.
 # CSS Variable support for SPFx projects
 
 Now native CSS variable can also be used in SPFx project using this project.
-Read everything on this in my [blog post](https://wp.me/p2iCnX-14x) or on the dedicated [documentation page](./css-variables.md)
+Read everything on this in my [blog post](https://wp.me/p2iCnX-14x) or on the dedicated [documentation page](css-variables.md)
 
 # Additional functions
 You will find all additional functions in the documentation:
 
-* [Typopgraphy](./sass/typography.md)  
+* [Typopgraphy](sass/typography.md)  
 Create font-weight, font-styles and general text styles
-* [State styles](./sass/statestyles.md)  
+* [State styles](sass/statestyles.md)  
 Creates alert, error, info, server and success styles
 
 # License
