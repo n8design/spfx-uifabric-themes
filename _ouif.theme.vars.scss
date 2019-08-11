@@ -211,3 +211,30 @@ $ouif-font-mega-MozOsxFontSmoothing: "[theme:ms-font-mega-MozOsxFontSmoothing, d
 $ouif-font-mega-WebkitFontSmoothing: "[theme:ms-font-mega-WebkitFontSmoothing, default: antialiased]";
 $ouif-font-mega-fontSize: "[theme:ms-font-mega-fontSize, default: 72px]";
 $ouif-font-mega-fontWeight: "[theme:ms-font-mega-fontWeight, default: 100]";
+
+
+/* State Colors */
+/** Alerts **/
+$ouif-alert: "[theme:alert, default: #d83b01]";
+$ouif-alertBackground: "[theme:alertBackground, default: #deecf9]";
+$ouif-alertText: "[theme:alertText, default: #333333]";
+/** Error **/
+$ouif-error: "[theme:error, default: #a80000]";
+$ouif-errorBackground: "[theme:errorBackground, default: #fde7e9]";
+$ouif-errorText: "[theme:errorText, default: #333333]";
+/** Info ***/
+$ouif-info: "[theme:info, default: #767676]";
+$ouif-infoBackground: "[theme:infoBackground, default: #f4f4f4]";
+$ouif-infoText: "[theme:infoText, default: #333333]";
+/** Warning **/
+$ouif-warning: "[theme:warning, default: #767676]";
+$ouif-warningBackground: "[theme:warningBackground, default: #fff4ce]";
+$ouif-warningText: "[theme:warningText, default: #333333]";
+/** Server Warning **/
+$ouif-severeWarning: "[theme:severeWarning, default: #d83b01]";
+$ouif-severeWarningBackground: "[theme:severeWarningBackground, default: #fed9cc]";
+$ouif-severeWarningText: "[theme:severeWarningText, default: #333333]";
+/** Success **/
+$ouif-success: "[theme:success, default: #107c10]";
+$ouif-successBackground: "[theme:successBackground, default: #dff6dd]";
+$ouif-successText: "[theme:successText, default: #333333]";
