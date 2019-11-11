@@ -148,11 +148,6 @@
 | inputPlaceholderText |  $ouif-inputPlaceholderText | <span style='border: 1px black solid; background-color: #666666; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;#666666 |
 | inputText |  $ouif-inputText | <span style='border: 1px black solid; background-color: #333333; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;#333333 |
 | inputTextHovered |  $ouif-inputTextHovered | <span style='border: 1px black solid; background-color: #212121; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;#212121 |
-| largeFontFamily |  $ouif-largeFontFamily | <span style='border: 1px black solid; background-color: 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif |
-| largeFontSize |  $ouif-largeFontSize | <span style='border: 1px black solid; background-color: 17px; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;17px |
-| largeFontWeight |  $ouif-largeFontWeight | <span style='border: 1px black solid; background-color: 300; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;300 |
-| largeMozOsxFontSmoothing |  $ouif-largeMozOsxFontSmoothing | <span style='border: 1px black solid; background-color: grayscale; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;grayscale |
-| largeWebkitFontSmoothing |  $ouif-largeWebkitFontSmoothing | <span style='border: 1px black solid; background-color: antialiased; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;antialiased |
 | link |  $ouif-link | <span style='border: 1px black solid; background-color: #03787c; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;#03787c |
 | linkHovered |  $ouif-linkHovered | <span style='border: 1px black solid; background-color: #014446; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;#014446 |
 | listBackground |  $ouif-listBackground | <span style='border: 1px black solid; background-color: #ffffff; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;#ffffff |
@@ -166,21 +161,6 @@
 | magenta |  $ouif-magenta | <span style='border: 1px black solid; background-color: #b4009e; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;#b4009e |
 | magentaDark |  $ouif-magentaDark | <span style='border: 1px black solid; background-color: #5c005c; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;#5c005c |
 | magentaLight |  $ouif-magentaLight | <span style='border: 1px black solid; background-color: #e3008c; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;#e3008c |
-| mediumFontFamily |  $ouif-mediumFontFamily | <span style='border: 1px black solid; background-color: 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif |
-| mediumFontSize |  $ouif-mediumFontSize | <span style='border: 1px black solid; background-color: 14px; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;14px |
-| mediumFontWeight |  $ouif-mediumFontWeight | <span style='border: 1px black solid; background-color: 400; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;400 |
-| mediumMozOsxFontSmoothing |  $ouif-mediumMozOsxFontSmoothing | <span style='border: 1px black solid; background-color: grayscale; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;grayscale |
-| mediumPlusFontFamily |  $ouif-mediumPlusFontFamily | <span style='border: 1px black solid; background-color: 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif |
-| mediumPlusFontSize |  $ouif-mediumPlusFontSize | <span style='border: 1px black solid; background-color: 15px; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;15px |
-| mediumPlusFontWeight |  $ouif-mediumPlusFontWeight | <span style='border: 1px black solid; background-color: 400; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;400 |
-| mediumPlusMozOsxFontSmoothing |  $ouif-mediumPlusMozOsxFontSmoothing | <span style='border: 1px black solid; background-color: grayscale; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;grayscale |
-| mediumPlusWebkitFontSmoothing |  $ouif-mediumPlusWebkitFontSmoothing | <span style='border: 1px black solid; background-color: antialiased; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;antialiased |
-| mediumWebkitFontSmoothing |  $ouif-mediumWebkitFontSmoothing | <span style='border: 1px black solid; background-color: antialiased; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;antialiased |
-| megaFontFamily |  $ouif-megaFontFamily | <span style='border: 1px black solid; background-color: 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif |
-| megaFontSize |  $ouif-megaFontSize | <span style='border: 1px black solid; background-color: 72px; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;72px |
-| megaFontWeight |  $ouif-megaFontWeight | <span style='border: 1px black solid; background-color: 100; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;100 |
-| megaMozOsxFontSmoothing |  $ouif-megaMozOsxFontSmoothing | <span style='border: 1px black solid; background-color: grayscale; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;grayscale |
-| megaWebkitFontSmoothing |  $ouif-megaWebkitFontSmoothing | <span style='border: 1px black solid; background-color: antialiased; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;antialiased |
 | menuBackground |  $ouif-menuBackground | <span style='border: 1px black solid; background-color: #ffffff; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;#ffffff |
 | menuDivider |  $ouif-menuDivider | <span style='border: 1px black solid; background-color: #c8c8c8; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;#c8c8c8 |
 | menuHeader |  $ouif-menuHeader | <span style='border: 1px black solid; background-color: #03787c; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;#03787c |
@@ -222,27 +202,11 @@
 | red |  $ouif-red | <span style='border: 1px black solid; background-color: #e81123; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;#e81123 |
 | redDark |  $ouif-redDark | <span style='border: 1px black solid; background-color: #a80000; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;#a80000 |
 | roundedCorner2 |  $ouif-roundedCorner2 | <span style='border: 1px black solid; background-color: 0px; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;0px |
-| smallFontFamily |  $ouif-smallFontFamily | <span style='border: 1px black solid; background-color: 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif |
-| smallFontSize |  $ouif-smallFontSize | <span style='border: 1px black solid; background-color: 12px; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;12px |
-| smallFontWeight |  $ouif-smallFontWeight | <span style='border: 1px black solid; background-color: 400; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;400 |
-| smallInputBorder |  $ouif-smallInputBorder | <span style='border: 1px black solid; background-color: #666666; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;#666666 |
-| smallMozOsxFontSmoothing |  $ouif-smallMozOsxFontSmoothing | <span style='border: 1px black solid; background-color: grayscale; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;grayscale |
-| smallPlusFontFamily |  $ouif-smallPlusFontFamily | <span style='border: 1px black solid; background-color: 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif |
-| smallPlusFontSize |  $ouif-smallPlusFontSize | <span style='border: 1px black solid; background-color: 13px; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;13px |
-| smallPlusFontWeight |  $ouif-smallPlusFontWeight | <span style='border: 1px black solid; background-color: 400; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;400 |
-| smallPlusMozOsxFontSmoothing |  $ouif-smallPlusMozOsxFontSmoothing | <span style='border: 1px black solid; background-color: grayscale; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;grayscale |
-| smallPlusWebkitFontSmoothing |  $ouif-smallPlusWebkitFontSmoothing | <span style='border: 1px black solid; background-color: antialiased; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;antialiased |
-| smallWebkitFontSmoothing |  $ouif-smallWebkitFontSmoothing | <span style='border: 1px black solid; background-color: antialiased; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;antialiased |
 | successBackground |  $ouif-successBackground | <span style='border: 1px black solid; background-color: rgba(186, 216, 10, .2); display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;rgba(186, 216, 10, .2) |
 | successText |  $ouif-successText | <span style='border: 1px black solid; background-color: #107C10; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;#107C10 |
 | suiteBarBackground |  $ouif-suiteBarBackground | <span style='border: 1px black solid; background-color: #03787c; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;#03787c |
 | suiteBarDisabledText |  $ouif-suiteBarDisabledText | <span style='border: 1px black solid; background-color: #eaeaea; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;#eaeaea |
 | suiteBarText |  $ouif-suiteBarText | <span style='border: 1px black solid; background-color: #ffffff; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;#ffffff |
-| superLargeFontFamily |  $ouif-superLargeFontFamily | <span style='border: 1px black solid; background-color: 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif |
-| superLargeFontSize |  $ouif-superLargeFontSize | <span style='border: 1px black solid; background-color: 42px; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;42px |
-| superLargeFontWeight |  $ouif-superLargeFontWeight | <span style='border: 1px black solid; background-color: 100; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;100 |
-| superLargeMozOsxFontSmoothing |  $ouif-superLargeMozOsxFontSmoothing | <span style='border: 1px black solid; background-color: grayscale; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;grayscale |
-| superLargeWebkitFontSmoothing |  $ouif-superLargeWebkitFontSmoothing | <span style='border: 1px black solid; background-color: antialiased; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;antialiased |
 | teal |  $ouif-teal | <span style='border: 1px black solid; background-color: #008272; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;#008272 |
 | tealDark |  $ouif-tealDark | <span style='border: 1px black solid; background-color: #004b50; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;#004b50 |
 | tealLight |  $ouif-tealLight | <span style='border: 1px black solid; background-color: #00b294; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;#00b294 |
@@ -257,11 +221,6 @@
 | themePrimary |  $ouif-themePrimary | <span style='border: 1px black solid; background-color: #03787c; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;#03787c |
 | themeSecondary |  $ouif-themeSecondary | <span style='border: 1px black solid; background-color: #13898d; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;#13898d |
 | themeTertiary |  $ouif-themeTertiary | <span style='border: 1px black solid; background-color: #49aeb1; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;#49aeb1 |
-| tinyFontFamily |  $ouif-tinyFontFamily | <span style='border: 1px black solid; background-color: 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif |
-| tinyFontSize |  $ouif-tinyFontSize | <span style='border: 1px black solid; background-color: 10px; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;10px |
-| tinyFontWeight |  $ouif-tinyFontWeight | <span style='border: 1px black solid; background-color: 600; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;600 |
-| tinyMozOsxFontSmoothing |  $ouif-tinyMozOsxFontSmoothing | <span style='border: 1px black solid; background-color: grayscale; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;grayscale |
-| tinyWebkitFontSmoothing |  $ouif-tinyWebkitFontSmoothing | <span style='border: 1px black solid; background-color: antialiased; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;antialiased |
 | topBarBackground |  $ouif-topBarBackground | <span style='border: 1px black solid; background-color: rgba(234, 234, 234, 0.78); display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;rgba(234, 234, 234, 0.78) |
 | topBarHoverText |  $ouif-topBarHoverText | <span style='border: 1px black solid; background-color: #333333; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;#333333 |
 | topBarText |  $ouif-topBarText | <span style='border: 1px black solid; background-color: #666666; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;#666666 |
@@ -272,31 +231,72 @@
 | warningText |  $ouif-warningText | <span style='border: 1px black solid; background-color: #333333; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;#333333 |
 | white |  $ouif-white | <span style='border: 1px black solid; background-color: #ffffff; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;#ffffff |
 | whiteTranslucent40 |  $ouif-whiteTranslucent40 | <span style='border: 1px black solid; background-color: rgba(255, 255, 255, 0.40); display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;rgba(255, 255, 255, 0.40) |
-| xLargeFontFamily |  $ouif-xLargeFontFamily | <span style='border: 1px black solid; background-color: 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif |
-| xLargeFontSize |  $ouif-xLargeFontSize | <span style='border: 1px black solid; background-color: 21px; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;21px |
-| xLargeFontWeight |  $ouif-xLargeFontWeight | <span style='border: 1px black solid; background-color: 100; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;100 |
-| xLargeMozOsxFontSmoothing |  $ouif-xLargeMozOsxFontSmoothing | <span style='border: 1px black solid; background-color: grayscale; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;grayscale |
-| xLargePlusFontFamily |  $ouif-xLargePlusFontFamily | <span style='border: 1px black solid; background-color: 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif |
-| xLargePlusFontSize |  $ouif-xLargePlusFontSize | <span style='border: 1px black solid; background-color: 21px; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;21px |
-| xLargePlusFontWeight |  $ouif-xLargePlusFontWeight | <span style='border: 1px black solid; background-color: 100; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;100 |
-| xLargePlusMozOsxFontSmoothing |  $ouif-xLargePlusMozOsxFontSmoothing | <span style='border: 1px black solid; background-color: grayscale; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;grayscale |
-| xLargePlusWebkitFontSmoothing |  $ouif-xLargePlusWebkitFontSmoothing | <span style='border: 1px black solid; background-color: antialiased; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;antialiased |
-| xLargeWebkitFontSmoothing |  $ouif-xLargeWebkitFontSmoothing | <span style='border: 1px black solid; background-color: antialiased; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;antialiased |
-| xSmallFontFamily |  $ouif-xSmallFontFamily | <span style='border: 1px black solid; background-color: 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif |
-| xSmallFontSize |  $ouif-xSmallFontSize | <span style='border: 1px black solid; background-color: 11px; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;11px |
-| xSmallFontWeight |  $ouif-xSmallFontWeight | <span style='border: 1px black solid; background-color: 400; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;400 |
-| xSmallMozOsxFontSmoothing |  $ouif-xSmallMozOsxFontSmoothing | <span style='border: 1px black solid; background-color: grayscale; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;grayscale |
-| xSmallWebkitFontSmoothing |  $ouif-xSmallWebkitFontSmoothing | <span style='border: 1px black solid; background-color: antialiased; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;antialiased |
-| xxLargeFontFamily |  $ouif-xxLargeFontFamily | <span style='border: 1px black solid; background-color: 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif |
-| xxLargeFontSize |  $ouif-xxLargeFontSize | <span style='border: 1px black solid; background-color: 28px; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;28px |
-| xxLargeFontWeight |  $ouif-xxLargeFontWeight | <span style='border: 1px black solid; background-color: 100; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;100 |
-| xxLargeMozOsxFontSmoothing |  $ouif-xxLargeMozOsxFontSmoothing | <span style='border: 1px black solid; background-color: grayscale; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;grayscale |
-| xxLargePlusFontFamily |  $ouif-xxLargePlusFontFamily | <span style='border: 1px black solid; background-color: 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif |
-| xxLargePlusFontSize |  $ouif-xxLargePlusFontSize | <span style='border: 1px black solid; background-color: 28px; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;28px |
-| xxLargePlusFontWeight |  $ouif-xxLargePlusFontWeight | <span style='border: 1px black solid; background-color: 100; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;100 |
-| xxLargePlusMozOsxFontSmoothing |  $ouif-xxLargePlusMozOsxFontSmoothing | <span style='border: 1px black solid; background-color: grayscale; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;grayscale |
-| xxLargePlusWebkitFontSmoothing |  $ouif-xxLargePlusWebkitFontSmoothing | <span style='border: 1px black solid; background-color: antialiased; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;antialiased |
-| xxLargeWebkitFontSmoothing |  $ouif-xxLargeWebkitFontSmoothing | <span style='border: 1px black solid; background-color: antialiased; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;antialiased |
 | yellow |  $ouif-yellow | <span style='border: 1px black solid; background-color: #ffb900; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;#ffb900 |
 | yellowDark |  $ouif-yellowDark | <span style='border: 1px black solid; background-color: #d29200; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;#d29200 |
 | yellowLight |  $ouif-yellowLight | <span style='border: 1px black solid; background-color: #fff100; display: inline-block; width: 2em; margin-right: 0.5em;'>&nbsp;&nbsp;</span>&nbsp;#fff100 |
+
+## Fonts
+
+| Theme Slot | SASS Variable | Value |
+| --- | --- | --- |
+| largeFontFamily |  $ouif-largeFontFamily | 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif |
+| largeFontSize |  $ouif-largeFontSize | 17px |
+| largeFontWeight |  $ouif-largeFontWeight | 300 |
+| largeMozOsxFontSmoothing |  $ouif-largeMozOsxFontSmoothing | grayscale |
+| largeWebkitFontSmoothing |  $ouif-largeWebkitFontSmoothing | antialiased |
+| mediumFontFamily |  $ouif-mediumFontFamily | 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif |
+| mediumFontSize |  $ouif-mediumFontSize | 14px |
+| mediumFontWeight |  $ouif-mediumFontWeight | 400 |
+| mediumMozOsxFontSmoothing |  $ouif-mediumMozOsxFontSmoothing | grayscale |
+| mediumPlusFontFamily |  $ouif-mediumPlusFontFamily | 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif |
+| mediumPlusFontSize |  $ouif-mediumPlusFontSize | 15px |
+| mediumPlusFontWeight |  $ouif-mediumPlusFontWeight | 400 |
+| mediumPlusMozOsxFontSmoothing |  $ouif-mediumPlusMozOsxFontSmoothing | grayscale |
+| mediumPlusWebkitFontSmoothing |  $ouif-mediumPlusWebkitFontSmoothing | antialiased |
+| mediumWebkitFontSmoothing |  $ouif-mediumWebkitFontSmoothing | antialiased |
+| megaFontFamily |  $ouif-megaFontFamily | 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif |
+| megaFontSize |  $ouif-megaFontSize | 72px |
+| megaFontWeight |  $ouif-megaFontWeight | 100 |
+| megaMozOsxFontSmoothing |  $ouif-megaMozOsxFontSmoothing | grayscale |
+| megaWebkitFontSmoothing |  $ouif-megaWebkitFontSmoothing | antialiased |
+| smallFontFamily |  $ouif-smallFontFamily | 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif |
+| smallFontSize |  $ouif-smallFontSize | 12px |
+| smallFontWeight |  $ouif-smallFontWeight | 400 |
+| smallInputBorder |  $ouif-smallInputBorder | #666666 |
+| smallMozOsxFontSmoothing |  $ouif-smallMozOsxFontSmoothing | grayscale |
+| smallPlusFontFamily |  $ouif-smallPlusFontFamily | 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif |
+| smallPlusFontSize |  $ouif-smallPlusFontSize | 13px |
+| smallPlusFontWeight |  $ouif-smallPlusFontWeight | 400 |
+| smallPlusMozOsxFontSmoothing |  $ouif-smallPlusMozOsxFontSmoothing | grayscale |
+| smallPlusWebkitFontSmoothing |  $ouif-smallPlusWebkitFontSmoothing | antialiased |
+| smallWebkitFontSmoothing |  $ouif-smallWebkitFontSmoothing | antialiased |
+| tinyFontFamily |  $ouif-tinyFontFamily | 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif |
+| tinyFontSize |  $ouif-tinyFontSize | 10px |
+| tinyFontWeight |  $ouif-tinyFontWeight | 600 |
+| tinyMozOsxFontSmoothing |  $ouif-tinyMozOsxFontSmoothing | grayscale |
+| tinyWebkitFontSmoothing |  $ouif-tinyWebkitFontSmoothing | antialiased |
+| xLargeFontFamily |  $ouif-xLargeFontFamily | 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif |
+| xLargeFontSize |  $ouif-xLargeFontSize | 21px |
+| xLargeFontWeight |  $ouif-xLargeFontWeight | 100 |
+| xLargeMozOsxFontSmoothing |  $ouif-xLargeMozOsxFontSmoothing | grayscale |
+| xLargePlusFontFamily |  $ouif-xLargePlusFontFamily | 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif |
+| xLargePlusFontSize |  $ouif-xLargePlusFontSize | 21px |
+| xLargePlusFontWeight |  $ouif-xLargePlusFontWeight | 100 |
+| xLargePlusMozOsxFontSmoothing |  $ouif-xLargePlusMozOsxFontSmoothing | grayscale |
+| xLargePlusWebkitFontSmoothing |  $ouif-xLargePlusWebkitFontSmoothing | antialiased |
+| xLargeWebkitFontSmoothing |  $ouif-xLargeWebkitFontSmoothing | antialiased |
+| xSmallFontFamily |  $ouif-xSmallFontFamily | 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif |
+| xSmallFontSize |  $ouif-xSmallFontSize | 11px |
+| xSmallFontWeight |  $ouif-xSmallFontWeight | 400 |
+| xSmallMozOsxFontSmoothing |  $ouif-xSmallMozOsxFontSmoothing | grayscale |
+| xSmallWebkitFontSmoothing |  $ouif-xSmallWebkitFontSmoothing | antialiased |
+| xxLargeFontFamily |  $ouif-xxLargeFontFamily | 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif |
+| xxLargeFontSize |  $ouif-xxLargeFontSize | 28px |
+| xxLargeFontWeight |  $ouif-xxLargeFontWeight | 100 |
+| xxLargeMozOsxFontSmoothing |  $ouif-xxLargeMozOsxFontSmoothing | grayscale |
+| xxLargePlusFontFamily |  $ouif-xxLargePlusFontFamily | 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif |
+| xxLargePlusFontSize |  $ouif-xxLargePlusFontSize | 28px |
+| xxLargePlusFontWeight |  $ouif-xxLargePlusFontWeight | 100 |
+| xxLargePlusMozOsxFontSmoothing |  $ouif-xxLargePlusMozOsxFontSmoothing | grayscale |
+| xxLargePlusWebkitFontSmoothing |  $ouif-xxLargePlusWebkitFontSmoothing | antialiased |
+| xxLargeWebkitFontSmoothing |  $ouif-xxLargeWebkitFontSmoothing | antialiased |

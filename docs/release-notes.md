@@ -4,7 +4,7 @@
 
 Default values are not set to the teal them for you next project. At Microsoft Ignite was announced that this should be the next default theme for SharePoint.
 
-Additional updates are the some more theme slots are available. Checkout the documentation for the [SASS Variables].
+Additional updates are the some more theme slots are available. Checkout the documentation for the [SASS Variables](sass/ouif.theme.md).
 
 
 ## 0.7.0 - AliceBlue
