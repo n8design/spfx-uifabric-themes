@@ -7,7 +7,8 @@
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha",
     "commit": "npm test",
-    "convert2theme": "node ./tools/themeTosass"
+    "convert2theme": "node ./tools/themeTosass",
+    "update-doc": "node ./tools/docthemeslots"
   },
   "keywords": [
     "Office",
