@@ -2,7 +2,7 @@
 
 This toolkit improves your development workflow. It enables you to webparts create enhanced web part always matching the theme currently applied on the page.
 
-**Current Version:** 0.7.0 - AliceBlue;
+**Current Version:** 0.8.0 - Teal;
 
 # Installation
 Create a new SharePoint Framework Project and add this package to your project.
