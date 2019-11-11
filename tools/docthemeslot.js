@@ -32,7 +32,7 @@ if (fs.existsSync(coreFile)) {
         let uifKey = key.replace('ms-', '');
         let table1row = "",
             table2row = table1row;
-        if (coreThemeFile[key].indexOf('[') !== -1) {
+        if (coreThemeFile[key].toString().indexOf('[') !== -1) {
             //currentKey = sassPrefix + uifKey + ": " + coreThemeFile[key] + ";\r\n";
             table2row = `| ${key} | ${sassPrefix+ uifKey} | ${coreThemeFile[key]} |\r\n`;
         } else {

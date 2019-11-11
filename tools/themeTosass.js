@@ -19,7 +19,7 @@ if (fs.existsSync(coreFile)) {
 
         let uifKey = key.replace('ms-', '');
         let currentKey = "";
-        if (coreThemeFile[key].indexOf('[') !== -1) {
+        if (coreThemeFile[key].toString().indexOf('[') !== -1) {
             currentKey = sassPrefix + uifKey + ": " + coreThemeFile[key] + ";\r\n";
         } else {
             currentKey = sassPrefix + uifKey + ": \"[theme:" + uifKey + ", default:" + coreThemeFile[key] + "]\";\r\n";
