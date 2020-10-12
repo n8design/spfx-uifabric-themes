@@ -40,3 +40,5 @@ node_modules
 package-lock.json
 
 site
+
+.npmrc
