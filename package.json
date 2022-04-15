@@ -33,7 +33,7 @@
     "sass-true": "^5.0.0",
     "sassytester": "^1.1.0",
     "gulp-plumber": "^1.2.1",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "sass-test.sh": "^1.4.0"
   },
   "repository": {
