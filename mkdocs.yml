@@ -12,6 +12,7 @@ nav:
   - License: 'license.md'
 theme:
   name: 'material'
+  customdir: overrides
   palette:
     primary: 'cyan'
     accent: 'pink'
