@@ -1,3 +1,5 @@
+!!! warning "This package is deprecated and won't get updated in future. If you still have a need for it upgrade to <a href="https://lab.n8d.studio/htwoo/">hTWOo</a>"
+
 # CSS Variables in SPFx
 
 ## Getting started

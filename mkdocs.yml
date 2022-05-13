@@ -12,20 +12,20 @@ nav:
   - License: 'license.md'
 theme:
   name: 'material'
-  customdir: overrides
+  custom_dir: docs/overrides/
   palette:
     primary: 'cyan'
     accent: 'pink'
 markdown_extensions:
   - codehilite
   - admonition
-google_analytics:
-  - 'UA-15086819-7'
-  - 'auto'
+# # google_analytics:
+# #   - 'UA-15086819-7'
+# #   - 'auto'
 site_url: https://n8design.github.io/spfx-uifabric-themes/
 repo_url: https://github.com/n8design/spfx-uifabric-themes
 edit_uri: blob/master/docs/
-extra:
-  social:
-    - type: 'twitter'
-      link: 'https://twitter.com/stfbauer'
+# extra:
+#   social:
+#     - type: 'twitter'
+#       link: 'https://twitter.com/stfbauer'
