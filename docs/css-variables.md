@@ -17,7 +17,7 @@ import styles from './HelloWorldWebPart.module.scss';
 import * as strings from 'HelloWorldWebPartStrings';
 
 /* ⌄⌄⌄⌄ import dependency here ⌄⌄⌄⌄ */
-import uiFabricCSS from 'spfx-uifabric-themes';
+import uiFabricCSS from '@n8design/htwoo-core/legacy';
 
 ```
 
