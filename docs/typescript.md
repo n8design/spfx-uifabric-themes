@@ -9,7 +9,7 @@ To make use add the following import statement in your code.
 In your web part code add the following line to your webpart or extension project.
 
 ```typescript
-import uiFabricCSS from '@n8design/htwoo-core/legacy';
+import uiFabricCSS from '@n8d/htwoo-core/legacy';
 ```
 
 After that you should see the following extensions on the window object.

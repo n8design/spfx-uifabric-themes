@@ -10,7 +10,7 @@ This toolkit improves your development workflow. It enables you to webparts crea
 Create a new SharePoint Framework Project and add this package to your project.
 
 ```bash
-npm install --save-dev @n8design/htwoo-core 
+npm install --save-dev @n8d/htwoo-core 
 ```
 
 After this installation this package should be listed as a dev dependency in your SPFX Project.
@@ -20,7 +20,7 @@ After this installation this package should be listed as a dev dependency in you
 You can use it the same way like before but the variable reference will change to.
 
 ```scss
-@import './node_modules/@n8design/htwoo-core/legacy/ouif.theme';
+@import './node_modules/@n8d/htwoo-core/legacy/ouif.theme';
 ```
 
 This new SASS file will support more that 100 different themes slots such as backgroundColor, textColor.
